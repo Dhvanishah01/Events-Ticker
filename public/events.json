@@ -1,6 +1,6 @@
 {
- "fetchedAt": "2026-10-24T06:40:03.650Z",
- "count": 413,
+ "fetchedAt": "2026-10-24T07:03:50.950Z",
+ "count": 414,
  "events": [
   {
    "id": "evt-oLGbVTTWv2feD5X",
@@ -298,7 +298,7 @@
    "address": "1885 Mission St",
    "lat": 37.766869,
    "lon": -122.4196054,
-   "guests": 364,
+   "guests": 363,
    "calendar": "Hack for Social Impact",
    "calendarVerified": false,
    "hosts": [
@@ -353,7 +353,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 37,
+   "spotsRemaining": 38,
    "cover": "https://images.lumacdn.com/event-covers/4n/c14a0bff-5445-43b7-969f-2a0df009b209.png",
    "feeds": [
     "cat-tech"
@@ -372,7 +372,7 @@
    "address": null,
    "lat": 37.7670820713772,
    "lon": -122.39221304165869,
-   "guests": 105,
+   "guests": 106,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -832,7 +832,7 @@
    "address": null,
    "lat": 37.42215549350761,
    "lon": -122.15770202108722,
-   "guests": 647,
+   "guests": 650,
    "calendar": "Stanford Frontier Signal: From Hardware to Physical AI",
    "calendarVerified": false,
    "hosts": [
@@ -1264,9 +1264,9 @@
     }
    ],
    "free": true,
-   "requireApproval": true,
+   "requireApproval": false,
    "soldOut": true,
-   "waitlist": true,
+   "waitlist": false,
    "nearCapacity": false,
    "spotsRemaining": 0,
    "cover": "https://images.lumacdn.com/uploads/tu/c2d91d35-d980-4d00-a41f-2564931fd288.png",
@@ -1365,7 +1365,7 @@
    "address": "330 Ritch St",
    "lat": 37.7792165,
    "lon": -122.39426410000002,
-   "guests": 636,
+   "guests": 639,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1570,7 +1570,7 @@
    "address": "Frontier Tower 🧑‍🚀",
    "lat": 37.7822672,
    "lon": -122.4099607,
-   "guests": 339,
+   "guests": 340,
    "calendar": "Builderbase Hackathons",
    "calendarVerified": false,
    "hosts": [
@@ -1736,7 +1736,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 99,
+   "spotsRemaining": 97,
    "cover": "https://images.lumacdn.com/uploads/2p/fe833cc8-5047-4dc0-be20-7263d3e64b5a.jpg",
    "feeds": [
     "cat-ai"
@@ -1755,7 +1755,7 @@
    "address": "Ferry Building",
    "lat": 37.7954425,
    "lon": -122.3936136,
-   "guests": 631,
+   "guests": 633,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1936,7 +1936,7 @@
    "address": "Plug and Play Tech Center",
    "lat": 37.3843088,
    "lon": -122.01261689999998,
-   "guests": 24,
+   "guests": 25,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -2004,7 +2004,7 @@
    "address": "Salesforce Park",
    "lat": 37.789739499999996,
    "lon": -122.39616559999999,
-   "guests": 695,
+   "guests": 696,
    "calendar": "San Francisco AI Code And Coffee",
    "calendarVerified": false,
    "hosts": [
@@ -2072,7 +2072,7 @@
    "address": "Decentered Arts Studio",
    "lat": 37.7753416,
    "lon": -122.40921320000001,
-   "guests": 75,
+   "guests": 76,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -2117,7 +2117,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 25,
+   "spotsRemaining": 24,
    "cover": "https://images.lumacdn.com/uploads/rp/b6dbfaaa-fe09-49c0-82f3-e0cd75de747b.png",
    "feeds": [
     "discplace-BDj7GNbGlsF7Cka"
@@ -2852,7 +2852,7 @@
    "address": "236 Powell St",
    "lat": 37.7869381,
    "lon": -122.4080153,
-   "guests": 50,
+   "guests": 51,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -2867,7 +2867,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 25,
+   "spotsRemaining": 24,
    "cover": "https://images.lumacdn.com/uploads/vf/869a41e5-3420-47fd-a3a6-4c69e6fbbab8.png",
    "feeds": [
     "cat-tech",
@@ -2887,7 +2887,7 @@
    "address": "Mox",
    "lat": 37.7708552,
    "lon": -122.4199593,
-   "guests": 34,
+   "guests": 35,
    "calendar": "90/30 Club",
    "calendarVerified": false,
    "hosts": [
@@ -2907,7 +2907,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 91,
+   "spotsRemaining": 90,
    "cover": "https://images.lumacdn.com/uploads/3l/a825a8d2-c6f6-44d8-8a5d-63aa50ff63db.png",
    "feeds": [
     "cat-ai"
@@ -3803,7 +3803,7 @@
    "address": "300 Brannan St",
    "lat": 37.781841199999995,
    "lon": -122.3925962,
-   "guests": 26,
+   "guests": 27,
    "calendar": "Octen",
    "calendarVerified": false,
    "hosts": [
@@ -3818,7 +3818,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 74,
+   "spotsRemaining": 73,
    "cover": "https://images.lumacdn.com/uploads/h3/6c6dc429-370e-4dc6-898b-030697153199.png",
    "feeds": [
     "cat-ai"
@@ -5429,7 +5429,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 127,
+   "spotsRemaining": 125,
    "cover": "https://images.lumacdn.com/event-covers/ts/03d1d087-e811-4592-94c1-f8665e874fc3.png",
    "feeds": [
     "cat-ai"
@@ -6045,7 +6045,7 @@
    "address": null,
    "lat": 37.50896633571898,
    "lon": -122.25868693195761,
-   "guests": 5,
+   "guests": 7,
    "calendar": "Value Economy Network",
    "calendarVerified": false,
    "hosts": [
@@ -6070,7 +6070,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 125,
+   "spotsRemaining": 123,
    "cover": "https://images.unsplash.com/photo-1564053489984-317bbd824340?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzAxNTgyMzAxfDI&ixlib=rb-4.0.3&q=80&w=1080",
    "feeds": [
     "cat-ai"
@@ -8783,7 +8783,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 82,
+   "spotsRemaining": 81,
    "cover": "https://images.lumacdn.com/uploads/rg/b9e700d1-af3b-4a9e-b32e-e7b5a30db860.png",
    "feeds": [
     "cat-tech"
@@ -8836,7 +8836,7 @@
    "address": "1524 Summit Rd",
    "lat": 37.8814576,
    "lon": -122.24669519999999,
-   "guests": 27,
+   "guests": 28,
    "calendar": "Pollo AI",
    "calendarVerified": false,
    "hosts": [
@@ -8856,7 +8856,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": true,
-   "spotsRemaining": 3,
+   "spotsRemaining": 2,
    "cover": "https://images.lumacdn.com/uploads/qq/dddccf04-5758-4124-bdba-a35ff2d6bec5.png",
    "feeds": [
     "cat-ai"
@@ -9083,7 +9083,7 @@
      "bio": "Building ROI based sales stack"
     }
    ],
-   "free": true,
+   "free": false,
    "requireApproval": false,
    "soldOut": false,
    "waitlist": false,
@@ -9278,7 +9278,7 @@
    "address": "585 Market St",
    "lat": 37.789524199999995,
    "lon": -122.40080299999998,
-   "guests": 170,
+   "guests": 171,
    "calendar": "Mux",
    "calendarVerified": false,
    "hosts": [
@@ -9697,7 +9697,7 @@
    "address": null,
    "lat": 37.80154293653423,
    "lon": -122.45508013795678,
-   "guests": 9,
+   "guests": 10,
    "calendar": "Events @ PB",
    "calendarVerified": false,
    "hosts": [
@@ -10458,7 +10458,7 @@
    "address": "680 Folsom St",
    "lat": 37.784655,
    "lon": -122.39845059999999,
-   "guests": 23,
+   "guests": 24,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -11431,7 +11431,7 @@
    "address": "33 New Montgomery St",
    "lat": 37.788457799999996,
    "lon": -122.40149720000001,
-   "guests": 57,
+   "guests": 58,
    "calendar": "You Know, for Search",
    "calendarVerified": false,
    "hosts": [
@@ -11490,7 +11490,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 148,
+   "spotsRemaining": 147,
    "cover": "https://images.lumacdn.com/uploads/8o/1013046a-bf1d-42bf-baf0-0ca20dad9c8a.jpg",
    "feeds": [
     "cat-ai"
@@ -16392,7 +16392,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 26,
+   "spotsRemaining": 27,
    "cover": "https://images.lumacdn.com/uploads/hb/21c69ae2-8002-4b4c-86b5-99b4ff8cae60.png",
    "feeds": [
     "cat-tech"
@@ -16799,6 +16799,45 @@
    "cover": "https://images.lumacdn.com/uploads/sf/20be5ed7-20a4-4d45-8673-32a6d0f4dccb.jpg",
    "feeds": [
     "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-Wv8QPOdi7HcX3dF",
+   "title": "dim sum | abundant.ai",
+   "url": "https://lu.ma/6nz66d98",
+   "start": "2026-11-06T03:00:00.000Z",
+   "end": "2026-11-06T05:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.79420967067514,
+   "lon": -122.39829465435339,
+   "guests": 18,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Zi",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Vivian Cai",
+     "verified": false,
+     "bio": "cofounder @ try-cali.com"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/wv/24c7cf1e-349a-44af-b686-864584402648.jpg",
+   "feeds": [
+    "cat-ai"
    ]
   },
   {
