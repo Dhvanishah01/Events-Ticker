@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events Ticker</title>
+<meta name="description" content="Upcoming Luma events ranked by match, reach and distance.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>Events Ticker</h1>
+    <p id="meta" class="muted">Loading events…</p>
+  </div>
+  <button id="export" type="button" class="btn">Export PDF</button>
+</header>
+
+<main>
+  <aside class="controls" aria-label="Ranking controls">
+    <label>Search <input id="q" type="search" placeholder="Title, host, city"></label>
+    <label>Match weight <span id="wMatchV"></span><input id="wMatch" type="range" min="0" max="100"></label>
+    <label>Reach weight <span id="wReachV"></span><input id="wReach" type="range" min="0" max="100"></label>
+    <label>Distance weight <span id="wDistanceV"></span><input id="wDistance" type="range" min="0" max="100"></label>
+    <label>Max distance <span id="maxKmV"></span><input id="maxKm" type="range" min="5" max="150" step="5"></label>
+    <label class="check"><input id="freeOnly" type="checkbox"> Free events only</label>
+    <label class="check"><input id="matchOnly" type="checkbox"> Only events matching my interests</label>
+  </aside>
+
+  <section aria-live="polite">
+    <ol id="list" class="list"></ol>
+  </section>
+</main>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>

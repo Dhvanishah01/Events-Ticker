@@ -1,0 +1,38 @@
+name: Refresh events
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # daily, ~6am Pacific
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [public/profile.json, scripts/fetch-events.mjs]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-events
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Fetch events from Luma
+        run: node scripts/fetch-events.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/events.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: refresh events"
+            git push
+          fi

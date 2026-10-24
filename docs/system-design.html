@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events Ticker Design</title>
+<style>
+  :root {
+    --bg: #fafaf8; --surface: #ffffff; --text: #1d1d1b; --muted: #5f5e5a;
+    --border: #e3e2dc; --accent: #c2410c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161614; --surface: #1f1f1d; --text: #ecebe6; --muted: #a3a29c;
+      --border: #34332f; --accent: #fb923c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161614; --surface: #1f1f1d; --text: #ecebe6; --muted: #a3a29c;
+    --border: #34332f; --accent: #fb923c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+  }
+  main { max-width: 1040px; margin: 0 auto; padding: 48px 16px 80px; }
+  header p { color: var(--muted); max-width: 680px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.25rem; margin: 0 0 4px; }
+  .eyebrow { color: var(--accent); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  section {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px; margin-top: 24px;
+  }
+  section > p { color: var(--muted); margin: 0 0 16px; }
+  .mermaid { overflow-x: auto; text-align: center; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.88em; }
+  ul { margin: 0; padding-left: 20px; }
+  li + li { margin-top: 6px; }
+  .note { border-left: 3px solid var(--accent); padding: 8px 14px; margin-top: 16px; color: var(--text); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">System design · from "Claude Code crash course"</div>
+    <h1>Events Ticker</h1>
+    <p>A static web page that, when opened, shows upcoming Luma events ranked against your criteria (match, reach, distance). No database and no runtime backend. Code is written with Claude Code, stored on GitHub and auto-deployed to Vercel.</p>
+  </header>
+
+  <section>
+    <h2>1. Architecture</h2>
+    <p>The data is fetched daily by GitHub Actions, not when someone opens the page. That keeps the site frontend-only with no keys or backend.</p>
+    <pre class="mermaid">
+flowchart LR
+  subgraph DEV["Development: your machine"]
+    CC["Claude Code"]
+    MD["CLAUDE.md<br/>dev plan + rules"]
+    PROF["profile.md<br/>from LinkedIn"]
+    DES["DESIGN.md<br/>design tokens + thinking"]
+    LMCP["Luma MCP<br/>explore event data"]
+    MD --> CC
+    DES --> CC
+    PROF --> CC
+    LMCP --> CC
+  end
+
+  subgraph GH["GitHub"]
+    REPO[("Repo")]
+    CI["GitHub Actions<br/>daily cron + on push"]
+    FETCH["fetch-events.mjs<br/>Luma Discover feed, no key"]
+    JSON["events.json<br/>static data file"]
+    REPO --> CI --> FETCH --> JSON
+  end
+
+  subgraph VC["Vercel"]
+    BUILD["Static build"]
+    CDN["CDN-hosted site"]
+    BUILD --> CDN
+  end
+
+  subgraph BR["Browser: no backend"]
+    UI["Event list UI"]
+    SCORE["Scoring engine<br/>match · reach · distance"]
+    FILT["Filters + criteria<br/>saved in localStorage"]
+    PDF["Export PDF button"]
+    FILT --> SCORE --> UI --> PDF
+  end
+
+  CC -- "git push" --> REPO
+  JSON --> BUILD
+  PROF -. "bundled as criteria.json" .-> BUILD
+  CDN --> UI
+    </pre>
+  </section>
+
+  <section>
+    <h2>2. What happens when the page opens</h2>
+    <p>Everything after the first request runs in the browser.</p>
+    <pre class="mermaid">
+sequenceDiagram
+  actor You
+  participant Page as Static page on Vercel
+  participant Data as events.json + criteria.json
+  participant Engine as Scoring in browser
+  You->>Page: Open URL
+  Page->>Data: Load bundled JSON
+  Data-->>Page: Upcoming events + your profile
+  Page->>Engine: Score each event
+  Note over Engine: match = topic overlap with profile<br/>reach = RSVP count, host size<br/>distance = km from home location
+  Engine-->>Page: Ranked list
+  Page-->>You: Ticker of top matches
+  You->>Page: Adjust weights or filters
+  Page->>Engine: Re-rank instantly
+  You->>Page: Click Export PDF
+  Page-->>You: PDF via print stylesheet or jsPDF
+    </pre>
+  </section>
+
+  <section>
+    <h2>3. How you build it with Claude Code</h2>
+    <p>This is the learning loop from your objectives: .md files, skills, agents and design input.</p>
+    <pre class="mermaid">
+flowchart TD
+  A["Write CLAUDE.md<br/>goal, stack, V0/V1 plan, conventions"] --> B["Write profile.md<br/>paste LinkedIn: role, skills, interests, city"]
+  B --> C["Write DESIGN.md / AGENTS.md<br/>visual rules + how agents should work"]
+  C --> D["Connect Luma MCP<br/>look at real event fields"]
+  D --> E["Ask Claude Code to scaffold<br/>static site + fetch script + scoring"]
+  E --> F{"Use skills"}
+  F --> F1["frontend-design<br/>look and feel"]
+  F --> F2["vercel:deploy<br/>first deploy"]
+  F --> F3["code-review<br/>check before merge"]
+  F1 --> G["git push to GitHub"]
+  F2 --> G
+  F3 --> G
+  G --> H["GitHub Actions runs<br/>fetch + build"]
+  H --> I["Vercel auto-deploys"]
+  I --> J{"Happy with it?"}
+  J -- "no" --> E
+  J -- "yes" --> K["V1: import Claude design<br/>more interactive UI"]
+    </pre>
+  </section>
+
+  <section>
+    <h2>4. Roadmap</h2>
+    <pre class="mermaid">
+flowchart LR
+  subgraph V0["V0: pipeline works"]
+    v0a["Repo + CLAUDE.md"] --> v0b["Static page lists events"] --> v0c["Basic scoring"] --> v0d["GitHub to Vercel auto-deploy"]
+  end
+  subgraph V1["V1: better experience"]
+    v1a["Claude design import"] --> v1b["Weight sliders + filters"] --> v1c["PDF export"] --> v1d["Daily refresh cron"]
+  end
+  V0 --> V1
+    </pre>
+  </section>
+
+  <section>
+    <h2>5. Components</h2>
+    <table>
+      <thead><tr><th>Piece</th><th>Role</th><th>Lives in</th></tr></thead>
+      <tbody>
+        <tr><td><code>CLAUDE.md</code></td><td>Development plan, stack choice, conventions Claude Code follows every session</td><td>Repo root</td></tr>
+        <tr><td><code>profile.md</code></td><td>Your LinkedIn profile summarized into criteria: topics, seniority, location, interests</td><td>Repo, converted to <code>criteria.json</code> at build</td></tr>
+        <tr><td><code>DESIGN.md</code> / <code>AGENTS.md</code></td><td>Design tokens and thinking; instructions for any AI agent working in the repo</td><td>Repo root</td></tr>
+        <tr><td>Luma MCP</td><td>Lets Claude Code look at real events while developing</td><td>Your Claude Code setup</td></tr>
+        <tr><td><code>scripts/fetch-events.mjs</code></td><td>Calls Luma's public Discover feed (same endpoint as luma-mcp, no key) and writes <code>events.json</code></td><td>GitHub Actions</td></tr>
+        <tr><td>Scoring engine</td><td>Weighted score per event: match + reach + distance</td><td>Browser JS</td></tr>
+        <tr><td>Export PDF</td><td>Print stylesheet (<code>window.print()</code>) or jsPDF</td><td>Browser JS</td></tr>
+        <tr><td>Vercel</td><td>Hosts the static build; redeploys on every push</td><td>Vercel project linked to the repo</td></tr>
+      </tbody>
+    </table>
+    <div class="note">
+      <strong>Key constraint:</strong> a web page can't call an MCP server, and Luma's official API needs Luma Plus and only covers calendars you own. V0 therefore calls the public Discover feed that luma-mcp itself uses. It's undocumented and could change, so the fetch script fails without overwriting the last good <code>events.json</code>.
+    </div>
+  </section>
+</main>
+
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  const forced = document.documentElement.dataset.theme;
+  const dark = forced ? forced === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: dark ? "dark" : "neutral",
+    securityLevel: "strict",
+    flowchart: { curve: "basis", htmlLabels: true },
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Inter, sans-serif"
+  });
+</script>
+</body>
+</html>

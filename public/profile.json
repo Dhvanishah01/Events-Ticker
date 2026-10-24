@@ -1,0 +1,20 @@
+{
+  "name": "Dhvani Shah",
+  "home": { "label": "San Francisco, CA", "lat": 37.7749, "lon": -122.4194 },
+  "maxDistanceKm": 60,
+  "daysAhead": 30,
+  "categories": ["cat-tech", "cat-ai"],
+  "interests": [
+    { "term": "design", "weight": 3 },
+    { "term": "ux", "weight": 3 },
+    { "term": "product", "weight": 2 },
+    { "term": "frontend", "weight": 2 },
+    { "term": "ai", "weight": 2 },
+    { "term": "agent", "weight": 2 },
+    { "term": "claude", "weight": 2 },
+    { "term": "hackathon", "weight": 1 },
+    { "term": "women", "weight": 1 },
+    { "term": "founder", "weight": 1 }
+  ],
+  "weights": { "match": 50, "reach": 25, "distance": 25 }
+}
