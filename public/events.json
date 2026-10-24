@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-24T06:18:28.900Z",
+ "fetchedAt": "2026-10-24T06:21:06.609Z",
  "count": 400,
  "events": [
   {
@@ -185,7 +185,7 @@
    "address": "1885 Mission St",
    "lat": 37.766869,
    "lon": -122.4196054,
-   "guests": 365,
+   "guests": 364,
    "calendar": "Hack for Social Impact",
    "hosts": [
     "Hack for Social Impact - Events",
@@ -472,7 +472,7 @@
    "address": null,
    "lat": 37.42215549350761,
    "lon": -122.15770202108722,
-   "guests": 645,
+   "guests": 646,
    "calendar": "Stanford Frontier Signal: From Hardware to Physical AI",
    "hosts": [
     "Pop Pop Tech",
