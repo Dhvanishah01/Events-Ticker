@@ -6,83 +6,128 @@
 <title>Events Ticker</title>
 <meta name="description" content="Three high-value events a week, ranked for a 6-week job search.">
 <meta name="color-scheme" content="light dark">
+<script>/* Apply a saved theme before first paint; app.js owns the toggle. */try{var t=JSON.parse(localStorage.getItem("events-ticker:theme"));if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mona+Sans:wdth,wght@75..125,200..900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&amp;family=Figtree:wght@400;500;600&amp;display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#picks">Skip to best bets</a>
 
-<header class="masthead">
-  <p class="wordmark">Events Ticker</p>
-  <p id="meta" class="meta">Loading events</p>
-  <button id="export" type="button" class="btn-quiet">Export PDF</button>
+<div class="et">
+<div class="wrap">
+
+<header class="hdr">
+  <div class="mark">
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><rect x="1" y="1" width="24" height="24" rx="7" stroke="currentColor" stroke-width="1.5"/><path d="M6 16.5l4-5 3.5 3 6.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <h1 class="wordmark serif">Events Ticker</h1>
+  </div>
+  <div class="hdr-r">
+    <span id="meta" class="updated">Loading events&hellip;</span>
+    <button id="themeToggle" type="button" class="ghost icon no-print" aria-pressed="false" aria-label="Dark mode">
+      <svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+    </button>
+    <button id="export" type="button" class="ghost no-print">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg>
+      Export PDF
+    </button>
+  </div>
 </header>
 
 <main>
-  <div class="week-layout">
-    <section class="goal" aria-labelledby="goalText">
-      <p class="goal-when"><span id="goalWeek"></span> <span id="goalDeadline"></span></p>
-      <h1 id="goalText"></h1>
-      <div class="season" id="season" aria-hidden="true"></div>
+<section class="goal" aria-labelledby="goal-h">
+  <div>
+    <p id="eyebrow" class="eyebrow"></p>
+    <h2 id="goal-h" class="goal-h serif"></h2>
+    <div id="season" class="season" role="img"></div>
+    <div id="segLabels" class="seg-labels" aria-hidden="true"></div>
+  </div>
+  <div>
+    <div class="slots-h">
+      <h2 id="slotsTitle" class="slots-t serif">Your 3 this week</h2>
+      <span id="weekStatus" class="status" role="status"></span>
+    </div>
+    <ol id="slots" class="slots" role="list"></ol>
+    <p id="nextWeek" class="next-week"></p>
+  </div>
+</section>
 
-      <h2 class="slots-title" id="slotsTitle">Your 3 this week</h2>
-      <ol id="slots" class="slots" aria-describedby="weekCount"></ol>
-      <p id="weekCount" class="week-count" role="status"></p>
-      <p id="nextWeek" class="next-week"></p>
-    </section>
+<section id="picks" class="sec" aria-labelledby="best-h" tabindex="-1">
+  <div class="sec-h">
+    <h2 id="best-h" class="sec-t serif">Best bets for the next 7 days</h2>
+    <p class="sec-sub">Ranked by host, venue, fit and odds of getting in</p>
+  </div>
+  <ol id="top" class="cards" role="list"></ol>
+</section>
 
-    <section id="picks" class="picks" aria-labelledby="topTitle" tabindex="-1">
-      <div class="picks-head">
-        <h2 id="topTitle">Best bets for the next 7 days</h2>
-        <p>Ranked by host, venue, fit with your search and your odds of getting in. Choose 3.</p>
-      </div>
-      <ol id="top" class="pick-list"></ol>
-    </section>
+<section class="sec no-print" aria-labelledby="all-h">
+  <div class="sec-h">
+    <h2 id="all-h" class="sec-t serif">All upcoming events</h2>
+    <p id="allCount" class="sec-sub" role="status"></p>
   </div>
 
-  <section class="all" aria-labelledby="allTitle">
-    <div class="all-head">
-      <h2 id="allTitle">All upcoming events</h2>
-      <p id="allCount" class="all-count"></p>
+  <div class="fbar">
+    <div class="fbar-top">
+      <span id="filterSummary" class="label"></span>
+      <button id="filterToggle" type="button" class="ftoggle" aria-expanded="true" aria-controls="filter-panel">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+        Filters
+        <span id="filterCount" class="count" hidden><span class="sr">changed: </span><span id="filterCountN"></span></span>
+        <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
     </div>
-
-    <details class="filters" id="filters">
-      <summary>Filters <span id="filterSummary" class="filter-summary"></span></summary>
-      <div class="filter-grid" role="group" aria-label="Filter events">
-        <label class="field field-search">Search
-          <input id="q" type="search" placeholder="Title, host or venue" autocomplete="off">
-        </label>
-        <label class="field">Match strength
-          <select id="tier">
-            <option value="all">Any</option>
-            <option value="1">Strong only</option>
-            <option value="2">Strong and good</option>
-          </select>
-        </label>
-        <label class="field">When
-          <select id="days">
-            <option value="7">Next 7 days</option>
-            <option value="14">Next 14 days</option>
-          </select>
-        </label>
-        <label class="field field-range">
-          <span class="field-label">Within <output id="maxMiV" for="maxMi"></output> of Salesforce Tower</span>
-          <input id="maxMi" type="range" min="1" max="40" step="1">
-        </label>
-        <div class="toggles">
-          <label class="toggle"><input id="freeOnly" type="checkbox"> Free only</label>
-          <label class="toggle"><input id="hideLongShots" type="checkbox"> Hide long shots <span class="hint">(sold out, waitlist, invite only)</span></label>
-          <label class="toggle"><input id="hideOffTopic" type="checkbox"> Hide off-topic</label>
+    <div id="filter-panel" class="fpanel" role="group" aria-label="Filter events">
+      <div class="field">
+        <label for="q">Search</label>
+        <input id="q" class="input" type="search" placeholder="Title, host or venue" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="tier">Match strength</label>
+        <select id="tier" class="select">
+          <option value="all">Any match</option>
+          <option value="2">Good and strong</option>
+          <option value="1">Strong only</option>
+        </select>
+      </div>
+      <div class="field">
+        <span id="daysLabel" class="flabel">Window</span>
+        <div id="days" class="segm" role="group" aria-labelledby="daysLabel">
+          <button type="button" data-days="7" aria-pressed="true">7 days</button>
+          <button type="button" data-days="14" aria-pressed="false">14 days</button>
         </div>
       </div>
-    </details>
+      <div class="field">
+        <label for="maxMi">Max distance from <span id="homeLabel">Salesforce Tower</span></label>
+        <div class="range-row">
+          <input id="maxMi" class="range" type="range" min="1" max="40" step="1">
+          <span id="maxMiV" class="range-v" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="switches">
+        <label class="sw"><input id="freeOnly" type="checkbox" role="switch"><span>Free only</span></label>
+        <label class="sw"><input id="hideLongShots" type="checkbox" role="switch"><span>Hide long shots <span class="hint">(sold out, waitlist, invite only)</span></span></label>
+        <label class="sw"><input id="hideOffTopic" type="checkbox" role="switch"><span>Hide off-topic</span></label>
+      </div>
+    </div>
+  </div>
 
-    <ol id="list" class="rows"></ol>
-    <p id="listMore" class="list-more"></p>
-  </section>
+  <div class="lhead" aria-hidden="true">
+    <span>Date</span><span>Event</span><span>Venue</span><span>Distance</span><span>Match</span><span>Odds</span><span></span>
+  </div>
+  <ol id="list" class="list" role="list" aria-label="All upcoming events"></ol>
+  <p id="listMore" class="list-more"></p>
+</section>
 </main>
+
+<footer class="foot no-print">
+  <span id="footHome"></span>
+  <span id="footGoal"></span>
+</footer>
+
+</div>
+</div>
 
 <script src="app.js" type="module"></script>
 </body>
