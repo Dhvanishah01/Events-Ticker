@@ -1,20 +1,81 @@
 {
   "name": "Dhvani Shah",
-  "home": { "label": "San Francisco, CA", "lat": 37.7749, "lon": -122.4194 },
+  "goal": {
+    "text": "Land a product design / UX engineering / design technologist role",
+    "start": "2026-10-24",
+    "deadline": "2026-12-05",
+    "eventsPerWeek": 3
+  },
+  "home": { "label": "Salesforce Tower", "lat": 37.78977, "lon": -122.39694 },
   "maxDistanceKm": 60,
-  "daysAhead": 30,
+  "daysAhead": 14,
   "categories": ["cat-tech", "cat-ai"],
+  "places": ["discplace-BDj7GNbGlsF7Cka"],
+
   "interests": [
     { "term": "design", "weight": 3 },
+    { "term": "designer", "weight": 3 },
     { "term": "ux", "weight": 3 },
+    { "term": "ui", "weight": 2 },
+    { "term": "figma", "weight": 3 },
+    { "term": "design system", "weight": 3 },
+    { "term": "prototyp", "weight": 2, "prefix": true },
+    { "term": "user research", "weight": 2 },
     { "term": "product", "weight": 2 },
     { "term": "frontend", "weight": 2 },
-    { "term": "ai", "weight": 2 },
-    { "term": "agent", "weight": 2 },
-    { "term": "claude", "weight": 2 },
+    { "term": "design engineer", "weight": 3, "prefix": true },
+    { "term": "creative", "weight": 1 },
+    { "term": "ai", "weight": 1 },
+    { "term": "agent", "weight": 1 },
+    { "term": "claude", "weight": 1 },
+    { "term": "vibe cod", "weight": 1, "prefix": true },
+    { "term": "hiring", "weight": 3 },
+    { "term": "career", "weight": 3 },
+    { "term": "job", "weight": 2 },
+    { "term": "recruit", "weight": 2, "prefix": true },
+    { "term": "portfolio", "weight": 3 },
+    { "term": "networking", "weight": 1 },
+    { "term": "demo day", "weight": 1 },
+    { "term": "founder", "weight": 1 },
     { "term": "hackathon", "weight": 1 },
-    { "term": "women", "weight": 1 },
-    { "term": "founder", "weight": 1 }
+    { "term": "buildathon", "weight": 1 },
+    { "term": "women", "weight": 1 }
   ],
-  "weights": { "match": 50, "reach": 25, "distance": 25 }
+
+  "hosts": {
+    "tierA": [
+      "Figma", "Anthropic", "OpenAI", "Vercel", "Notion", "Linear", "Framer", "Webflow",
+      "Canva", "Adobe", "Airbnb", "Stripe", "Google", "Amplitude", "Perplexity", "Replit",
+      "Cursor", "Anysphere", "Lovable", "Gamma", "Retool", "Mobbin", "Design Buddies",
+      "CoCreate", "ADPList", "Config", "Dribbble", "Hatch", "Into Design Systems", "UXR",
+      "Women in Design", "Girls in Tech", "Women in AI", "Women Defining AI", "Elevenlabs", "Runway"
+    ],
+    "tierB": [
+      "Microsoft", "Meta", "Salesforce", "Apple", "Uber", "Pinterest", "LinkedIn", "Databricks",
+      "Scale AI", "Cloudflare", "GitHub", "AWS", "NVIDIA", "Mistral", "Cohere", "Hugging Face",
+      "Y Combinator", "a16z", "Andreessen", "South Park Commons", "Founders Fund", "Sequoia",
+      "Greylock", "Accel", "General Catalyst", "Lightspeed", "Product Hunt", "Cerebral Valley",
+      "AI Tinkerers", "Builders Club"
+    ]
+  },
+
+  "venues": {
+    "great": [
+      "Figma", "Anthropic", "OpenAI", "Salesforce", "Google", "GitHub", "Notion", "Stripe",
+      "Vercel", "Airbnb", "Amplitude", "Replit", "Microsoft", "Meta", "Y Combinator", "a16z",
+      "Frontier Tower", "Shack15", "AWS Builder Loft", "Founders Fund", "Cloudflare", "Databricks"
+    ],
+    "good": [
+      "HQ", "Office", "Studio", "Loft", "Hub", "Gray Area", "Exploratorium", "SPC", "Commons",
+      "WeWork", "Convene", "Stanford", "Berkeley", "Ferry Building"
+    ]
+  },
+
+  "avoid": ["cybersecurity", "security", "crypto", "web3", "blockchain", "defi", "bioml", "genome", "journal club", "trading", "real estate"],
+
+  "hardToGetInto": [
+    "founders only", "founder-only", "investors only", "invite only", "invite-only", "by invitation",
+    "executive", "exec", "cxo", "cto", "ciso", "vp", "c-suite", "leaders dinner", "private dinner",
+    "lp", "limited partners"
+  ]
 }

@@ -4,31 +4,83 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Events Ticker</title>
-<meta name="description" content="Upcoming Luma events ranked by match, reach and distance.">
+<meta name="description" content="Three high-value events a week, ranked for a 6-week job search.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mona+Sans:wdth,wght@75..125,200..900&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="top">
-  <div>
-    <h1>Events Ticker</h1>
-    <p id="meta" class="muted">Loading events…</p>
-  </div>
-  <button id="export" type="button" class="btn">Export PDF</button>
+<a class="skip" href="#picks">Skip to best bets</a>
+
+<header class="masthead">
+  <p class="wordmark">Events Ticker</p>
+  <p id="meta" class="meta">Loading events</p>
+  <button id="export" type="button" class="btn-quiet">Export PDF</button>
 </header>
 
 <main>
-  <aside class="controls" aria-label="Ranking controls">
-    <label>Search <input id="q" type="search" placeholder="Title, host, city"></label>
-    <label>Match weight <span id="wMatchV"></span><input id="wMatch" type="range" min="0" max="100"></label>
-    <label>Reach weight <span id="wReachV"></span><input id="wReach" type="range" min="0" max="100"></label>
-    <label>Distance weight <span id="wDistanceV"></span><input id="wDistance" type="range" min="0" max="100"></label>
-    <label>Max distance <span id="maxKmV"></span><input id="maxKm" type="range" min="5" max="150" step="5"></label>
-    <label class="check"><input id="freeOnly" type="checkbox"> Free events only</label>
-    <label class="check"><input id="matchOnly" type="checkbox"> Only events matching my interests</label>
-  </aside>
+  <div class="week-layout">
+    <section class="goal" aria-labelledby="goalText">
+      <p class="goal-when"><span id="goalWeek"></span> <span id="goalDeadline"></span></p>
+      <h1 id="goalText"></h1>
+      <div class="season" id="season" aria-hidden="true"></div>
 
-  <section aria-live="polite">
-    <ol id="list" class="list"></ol>
+      <h2 class="slots-title" id="slotsTitle">Your 3 this week</h2>
+      <ol id="slots" class="slots" aria-describedby="weekCount"></ol>
+      <p id="weekCount" class="week-count" role="status"></p>
+      <p id="nextWeek" class="next-week"></p>
+    </section>
+
+    <section id="picks" class="picks" aria-labelledby="topTitle" tabindex="-1">
+      <div class="picks-head">
+        <h2 id="topTitle">Best bets for the next 7 days</h2>
+        <p>Ranked by host, venue, fit with your search and your odds of getting in. Choose 3.</p>
+      </div>
+      <ol id="top" class="pick-list"></ol>
+    </section>
+  </div>
+
+  <section class="all" aria-labelledby="allTitle">
+    <div class="all-head">
+      <h2 id="allTitle">All upcoming events</h2>
+      <p id="allCount" class="all-count"></p>
+    </div>
+
+    <details class="filters" id="filters">
+      <summary>Filters <span id="filterSummary" class="filter-summary"></span></summary>
+      <div class="filter-grid" role="group" aria-label="Filter events">
+        <label class="field field-search">Search
+          <input id="q" type="search" placeholder="Title, host or venue" autocomplete="off">
+        </label>
+        <label class="field">Match strength
+          <select id="tier">
+            <option value="all">Any</option>
+            <option value="1">Strong only</option>
+            <option value="2">Strong and good</option>
+          </select>
+        </label>
+        <label class="field">When
+          <select id="days">
+            <option value="7">Next 7 days</option>
+            <option value="14">Next 14 days</option>
+          </select>
+        </label>
+        <label class="field field-range">
+          <span class="field-label">Within <output id="maxMiV" for="maxMi"></output> of Salesforce Tower</span>
+          <input id="maxMi" type="range" min="1" max="40" step="1">
+        </label>
+        <div class="toggles">
+          <label class="toggle"><input id="freeOnly" type="checkbox"> Free only</label>
+          <label class="toggle"><input id="hideLongShots" type="checkbox"> Hide long shots <span class="hint">(sold out, waitlist, invite only)</span></label>
+          <label class="toggle"><input id="hideOffTopic" type="checkbox"> Hide off-topic</label>
+        </div>
+      </div>
+    </details>
+
+    <ol id="list" class="rows"></ol>
+    <p id="listMore" class="list-more"></p>
   </section>
 </main>
 
