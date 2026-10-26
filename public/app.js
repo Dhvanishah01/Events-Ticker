@@ -169,9 +169,9 @@ function pickCard(x, rank) {
   const scores = { Host: s.host, Venue: s.venue, Fit: s.relevance, Odds: s.acceptance };
   return `
     <li class="card${on ? " sel" : ""}">
-      <div class="rank" aria-hidden="true">${String(rank).padStart(2, "0")}</div>
-      ${cover(e, 176, "cover")}
-      <div class="card-body">
+      <div class="card-head">
+        <div class="rank" aria-hidden="true">${String(rank).padStart(2, "0")}</div>
+        <h3 class="card-t serif"><span class="sr">Rank ${rank}: </span><a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.title)}</a></h3>
         <div class="meta">
           <strong>${escapeHtml(dayName(e))}, ${escapeHtml(dayNum(e))} · ${escapeHtml(timeOf(e))}</strong>
           <span class="tier t${s.tier}">${TIER_NAME[s.tier]}</span>
@@ -180,8 +180,10 @@ function pickCard(x, rank) {
           ${e.free === false ? `<span>Paid</span>` : ""}
           ${e.guests ? `<span>${escapeHtml(e.guests)} going</span>` : ""}
         </div>
-        <h3 class="card-t serif"><span class="sr">Rank ${rank}: </span><a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.title)}</a></h3>
         <p class="where"><b>${escapeHtml(hostLabel(e))}</b> · ${escapeHtml(whereLabel(e))} · ${escapeHtml(distanceLabel(s))}</p>
+      </div>
+      ${cover(e, 176, "cover")}
+      <div class="card-foot">
         <details class="why" data-id="${escapeHtml(e.id)}"${openWhy.has(e.id) ? " open" : ""}>
           <summary>
             <span class="total"><b>${pct(s.tierScore)}</b> / 100 overall · ${oddsOf(e)[1]}</span>
