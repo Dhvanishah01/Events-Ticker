@@ -97,13 +97,8 @@ const dayNum = (e) => fmt(new Date(e.start), e.timezone, { month: "short", day: 
 const timeOf = (e) => fmt(new Date(e.start), e.timezone, { hour: "numeric", minute: "2-digit" });
 const shortDate = (d) => fmt(d, undefined, { month: "short", day: "numeric" });
 
-function startOfWeek(d = new Date()) {
-  const x = new Date(d);
-  x.setHours(0, 0, 0, 0);
-  x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); // Monday
-  return x;
-}
-const weekStart = startOfWeek();
+// "This week" is the next 7 days from today, the same window as Best bets, so anything planned from them fills a slot.
+const weekStart = new Date(new Date().setHours(0, 0, 0, 0));
 const weekEnd = new Date(weekStart.getTime() + 7 * DAY);
 const nextWeekEnd = new Date(weekEnd.getTime() + 7 * DAY);
 const inRange = (e, a, b) => { const t = new Date(e.start); return t >= a && t < b; };
