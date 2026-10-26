@@ -3,12 +3,11 @@
 import { createScorer, inNextDays, topPicks } from "./scoring.js";
 
 const TOP_COUNT = 5;
-const LIST_LIMIT = 80;
+const PAGE_SIZE = 20;
 const KM_PER_MI = 1.609;
 const CONTROLS_KEY = "events-ticker:controls:v2";
 const PLANNED_KEY = "events-ticker:planned";
 const THEME_KEY = "events-ticker:theme";
-const DAY = 24 * 60 * 60 * 1000;
 
 const $ = (id) => document.getElementById(id);
 const load = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } };
@@ -70,7 +69,8 @@ const planned = new Map(
 );
 const savePlanned = () => save(PLANNED_KEY, Object.fromEntries(planned));
 
-const filtersChanged = () => { save(CONTROLS_KEY, state); renderList(); after("filter", {}); };
+let page = 1;
+const filtersChanged = () => { page = 1; save(CONTROLS_KEY, state); renderList(); after("filter", {}); };
 for (const [key, el] of Object.entries(els)) {
   if (el.type === "checkbox") el.checked = state[key];
   else el.value = state[key];
@@ -95,12 +95,13 @@ function fmt(date, tz, opts) {
 const dayName = (e) => fmt(new Date(e.start), e.timezone, { weekday: "short" });
 const dayNum = (e) => fmt(new Date(e.start), e.timezone, { month: "short", day: "numeric" });
 const timeOf = (e) => fmt(new Date(e.start), e.timezone, { hour: "numeric", minute: "2-digit" });
-const shortDate = (d) => fmt(d, undefined, { month: "short", day: "numeric" });
 
 // "This week" is the next 7 days from today, the same window as Best bets, so anything planned from them fills a slot.
+// Calendar days, not 24h steps, so the window still ends at midnight across a DST change.
+const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
 const weekStart = new Date(new Date().setHours(0, 0, 0, 0));
-const weekEnd = new Date(weekStart.getTime() + 7 * DAY);
-const nextWeekEnd = new Date(weekEnd.getTime() + 7 * DAY);
+const weekEnd = addDays(weekStart, 7);
+const nextWeekEnd = addDays(weekEnd, 7);
 const inRange = (e, a, b) => { const t = new Date(e.start); return t >= a && t < b; };
 
 const miles = (km) => km / KM_PER_MI;
@@ -146,6 +147,13 @@ const svg = (size, d, width = 2) => `<svg width="${size}" height="${size}" viewB
 const CHECK = "M5 12.5l4.5 4.5L19 7.5", PLUS = "M12 5v14M5 12h14", CLOSE = "M6 6l12 12M18 6L6 18";
 const planLabel = (on) => (on ? "Planned" : "Plan to go");
 
+// Luma's CDN resizes on request: a 1.2 MB poster becomes a ~60 KB square thumbnail.
+const coverUrl = (url, px) => url.replace(/^https:\/\/images\.lumacdn\.com\/(?!cdn-cgi\/)/, `https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,width=${px},height=${px}/`);
+const cover = (e, px, cls) => e.cover
+  ? `<img class="${cls}" src="${escapeHtml(coverUrl(e.cover, px))}" alt="" width="${px}" height="${px}" loading="lazy" decoding="async">`
+  : `<span class="${cls}" aria-hidden="true"></span>`;
+const openWhy = new Set(); // score breakdowns the viewer opened, kept open across re-renders
+
 function planButton(e, on) {
   return `<button type="button" class="plan" data-id="${escapeHtml(e.id)}" aria-pressed="${on}" aria-label="${planLabel(on)}: ${escapeHtml(e.title)}">${svg(16, on ? CHECK : PLUS)}${planLabel(on)}</button>`;
 }
@@ -158,11 +166,11 @@ function pickCard(x, rank) {
   const { e, s } = x;
   const on = planned.has(e.id);
   const nextWeek = inRange(e, weekEnd, nextWeekEnd);
-  const meters = [["Host", s.host], ["Venue", s.venue], ["Fit", s.relevance], ["Odds", s.acceptance]];
-  const why = facts(x).map(([k, v]) => `${k}: ${v.replace(/\.$/, "")}.`).join(" "); // "Inc." must not become "Inc.."
+  const scores = { Host: s.host, Venue: s.venue, Fit: s.relevance, Odds: s.acceptance };
   return `
     <li class="card${on ? " sel" : ""}">
       <div class="rank" aria-hidden="true">${String(rank).padStart(2, "0")}</div>
+      ${cover(e, 176, "cover")}
       <div class="card-body">
         <div class="meta">
           <strong>${escapeHtml(dayName(e))}, ${escapeHtml(dayNum(e))} · ${escapeHtml(timeOf(e))}</strong>
@@ -174,13 +182,15 @@ function pickCard(x, rank) {
         </div>
         <h3 class="card-t serif"><span class="sr">Rank ${rank}: </span><a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.title)}</a></h3>
         <p class="where"><b>${escapeHtml(hostLabel(e))}</b> · ${escapeHtml(whereLabel(e))} · ${escapeHtml(distanceLabel(s))}</p>
-        <p class="why"><span>Why this fits you: </span>${escapeHtml(why)}</p>
-      </div>
-      <div class="side">
-        <div class="meters">
-          ${meters.map(([label, v]) => `<div><div class="meter-l"><span>${label}</span><b><span class="sr">${label} score </span>${pct(v)}<span class="sr"> out of 100</span></b></div><div class="track" aria-hidden="true"><div class="fill" style="width:${pct(v)}%"></div></div></div>`).join("")}
-        </div>
-        <div class="total"><b>${pct(s.tierScore)}</b> / 100 overall · ${oddsOf(e)[1]}</div>
+        <details class="why" data-id="${escapeHtml(e.id)}"${openWhy.has(e.id) ? " open" : ""}>
+          <summary>
+            <span class="total"><b>${pct(s.tierScore)}</b> / 100 overall · ${oddsOf(e)[1]}</span>
+            <span class="why-l">Host, venue, fit and odds${svg(14, "M6 9l6 6 6-6", 1.8).replace("<svg", '<svg class="chev"')}</span>
+          </summary>
+          <dl class="factors">
+            ${facts(x).map(([k, v]) => `<div class="factor"><dt>${k}</dt><dd class="track" aria-hidden="true"><span class="fill" style="width:${pct(scores[k])}%"></span></dd><dd class="f-score">${pct(scores[k])}<span class="sr"> out of 100</span></dd><dd class="f-text">${escapeHtml(v)}</dd></div>`).join("")}
+          </dl>
+        </details>
         <div class="actions no-print">
           ${planButton(e, on)}
           <a class="luma" href="${escapeHtml(e.url)}" target="_blank" rel="noopener">Open on Luma<span class="sr"> (opens in a new tab)</span></a>
@@ -192,39 +202,46 @@ function pickCard(x, rank) {
 function row({ e, s }) {
   const on = planned.has(e.id);
   const [oddsCls, oddsText] = oddsOf(e);
-  const flags = [e.free === false && "Paid", isLongShot(s) && "Long shot", offTopic(s) && "Off-topic"].filter(Boolean);
+  const tags = [
+    s.tier === 1 && `<span class="tier t1">Strong match</span>`,
+    ["approval", "waitlist", "soldout"].includes(oddsCls) && `<span class="chip odds"><span class="dot ${oddsCls}" aria-hidden="true"></span>${oddsCls === "approval" ? "Needs approval" : oddsText}</span>`,
+    e.free === false && `<span class="chip">Paid</span>`,
+    isLongShot(s) && `<span class="chip">Long shot</span>`,
+    offTopic(s) && `<span class="chip">Off-topic</span>`,
+  ].filter(Boolean);
+  const dist = s.km == null ? "" : ` · ${miles(s.km).toFixed(1)} mi`;
   return `
     <li class="row${on ? " sel" : ""}${isLongShot(s) || offTopic(s) ? " dim" : ""}">
-      <div class="c-date"><b>${escapeHtml(dayName(e))}</b><span>${escapeHtml(dayNum(e))}</span></div>
+      ${cover(e, 64, "thumb")}
       <div class="c-main">
         <div class="r-title"><a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.title)}</a></div>
-        <div class="r-sub"><span class="r-host">${escapeHtml(timeOf(e))} · ${escapeHtml(hostLabel(e))}</span>${flags.map((f) => `<span class="r-flag">· ${f}</span>`).join("")}</div>
+        <div class="r-when">${escapeHtml(dayName(e))}, ${escapeHtml(dayNum(e))} · ${escapeHtml(timeOf(e))}</div>
+        <div class="r-where">${escapeHtml(whereLabel(e))}${dist}</div>
       </div>
-      <div class="c-meta">
-        <span class="c-venue">${escapeHtml(whereLabel(e))}</span>
-        <span class="c-dist">${s.km == null ? "Online" : `${miles(s.km).toFixed(1)} mi`}</span>
-        <span><span class="tier t${s.tier}">${TIER_NAME[s.tier]}</span></span>
-        <span class="odds${oddsCls === "soldout" || oddsCls === "waitlist" ? " dim" : ""}"><span class="dot ${oddsCls}" aria-hidden="true"></span>${oddsText}</span>
-      </div>
+      <div class="r-tags">${tags.join("")}</div>
       <div class="c-act">${iconButton(e, on)}</div>
     </li>`;
 }
 
-// ---- render ----
-// The goal text, season bar and footer do not depend on plans or filters, so they are drawn once.
-function renderGoal() {
-  const start = new Date(`${profile.goal.start}T00:00:00`), deadline = new Date(`${profile.goal.deadline}T00:00:00`);
-  const totalWeeks = Math.round((deadline - start) / (7 * DAY));
-  const week = Math.min(totalWeeks, Math.max(1, Math.floor((Date.now() - start) / (7 * DAY)) + 1));
-  const daysLeft = Math.max(0, Math.ceil((deadline - Date.now()) / DAY));
-  const weeks = Array.from({ length: totalWeeks }, (_, i) => i + 1);
+// Numbered pages with the first, last and neighbours of the current one; gaps become "…".
+function pager(pages) {
+  if (pages < 2) return "";
+  const btn = (p, label, attrs = "") => `<button type="button" class="pg" data-page="${p}" ${attrs}>${label}</button>`;
+  const nums = [];
+  for (let p = 1; p <= pages; p++) {
+    if (p === 1 || p === pages || Math.abs(p - page) <= 1) nums.push(btn(p, p, p === page ? `aria-current="page" aria-label="Page ${p}, current"` : `aria-label="Page ${p}"`));
+    else if (nums.at(-1) !== "…") nums.push("…");
+  }
+  return btn(page - 1, "Previous", page === 1 ? "disabled" : "")
+    + nums.map((n) => (n === "…" ? `<span class="pg-gap" aria-hidden="true">…</span>` : n)).join("")
+    + btn(page + 1, "Next", page === pages ? "disabled" : "");
+}
 
-  $("eyebrow").textContent = `Week ${week} of ${totalWeeks} · ${daysLeft} ${daysLeft === 1 ? "day" : "days"} to ${shortDate(deadline)}`;
+// ---- render ----
+// The goal text and footer do not depend on plans or filters, so they are drawn once.
+function renderGoal() {
   $("goal-h").textContent = profile.goal.text;
-  $("season").setAttribute("aria-label", `Season progress: week ${week} of ${totalWeeks}, ${totalWeeks - week} to go`);
-  $("season").innerHTML = weeks.map((w) => `<div class="seg${w < week ? " past" : w === week ? " current" : ""}"></div>`).join("");
-  $("segLabels").innerHTML = weeks.map((w) => w === week ? `<span class="now">W${w}<span class="now-t"><span class="sep"> · </span>now</span></span>` : `<span>W${w}</span>`).join("");
-  $("slotsTitle").textContent = `Your ${profile.goal.eventsPerWeek} this week`;
+  $("slotsTitle").textContent = `Your ${profile.goal.eventsPerWeek} events this week`;
   $("homeLabel").textContent = profile.home.label;
   $("footHome").textContent = `Distances measured from ${profile.home.label}.`;
   $("footGoal").textContent = `Aim for ${profile.goal.eventsPerWeek} a week. Quality over volume.`;
@@ -253,6 +270,21 @@ function renderSlots() {
   const n = thisWeek.length;
   $("weekStatus").textContent = `${n} of ${target} planned${n >= target ? " · week is set" : ""}`;
   $("nextWeek").textContent = nextWeek.length ? `Already lined up for next week: ${nextWeek.length} of ${target}.` : "";
+
+  // The 7-day strip: a dot per strong match (up to 3), and the day turns orange once something is planned.
+  const strong = scored.filter(({ s }) => s.tier === 1 && !isLongShot(s) && !offTopic(s)).map(({ e }) => e);
+  $("days7").innerHTML = Array.from({ length: 7 }, (_, i) => {
+    const a = addDays(weekStart, i), b = addDays(a, 1);
+    const hits = strong.filter((e) => inRange(e, a, b)).length;
+    const mineToday = thisWeek.filter((e) => inRange(e, a, b)).length;
+    const said = `${fmt(a, undefined, { weekday: "long", month: "long", day: "numeric" })}: ${hits || "no"} strong ${hits === 1 ? "match" : "matches"}${mineToday ? `, ${mineToday} planned` : ""}`;
+    return `<li class="day${mineToday ? " planned" : ""}${i === 0 ? " today" : ""}">
+        <span class="day-w" aria-hidden="true">${i === 0 ? "Today" : fmt(a, undefined, { weekday: "short" })}</span>
+        <span class="day-n serif" aria-hidden="true">${fmt(a, undefined, { day: "numeric" })}</span>
+        <span class="day-dots" aria-hidden="true">${"<i></i>".repeat(Math.min(hits, 3))}</span>
+        <span class="sr">${said}</span>
+      </li>`;
+  }).join("");
 }
 
 function renderTop() {
@@ -294,12 +326,22 @@ function renderList() {
     .filter(({ s }) => !state.hideOffTopic || !offTopic(s))
     .filter(({ s }) => s.km == null || s.km <= maxKm)
     .filter(({ e }) => !q || [e.title, e.calendar, e.address, e.city, ...e.hosts.map((h) => h.name)].join(" ").toLowerCase().includes(q))
-    .sort((a, b) => b.s.tierScore - a.s.tierScore);
-  $("allCount").textContent = `${rows.length} ${rows.length === 1 ? "event" : "events"} in the next ${state.days} days · best first`;
-  $("list").innerHTML = rows.length
-    ? rows.slice(0, LIST_LIMIT).map(row).join("")
-    : `<li class="empty-list"><strong>No events match these filters.</strong> Try a longer window, a bigger distance or a shorter search.</li>`;
-  $("listMore").textContent = rows.length > LIST_LIMIT ? `Showing the top ${LIST_LIMIT} of ${rows.length}. Narrow the filters to see the rest.` : "";
+    .sort((a, b) => Date.parse(a.e.start) - Date.parse(b.e.start));
+  // Strong matches first, then everything else; each part stays in date order.
+  const strong = rows.filter(({ s }) => s.tier === 1), rest = rows.filter(({ s }) => s.tier !== 1);
+  const all = [...strong, ...rest];
+  const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
+  page = Math.min(page, pages);
+  const shown = all.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const group = (title, total, items) => items.length
+    ? `<h3 class="group-h">${title} <span>${total}</span></h3><ol class="list" role="list" aria-label="${title}">${items.map(row).join("")}</ol>`
+    : "";
+
+  $("allCount").textContent = `${rows.length} ${rows.length === 1 ? "event" : "events"} in the next ${state.days} days · strong matches first, then by date`;
+  $("list").innerHTML = all.length
+    ? group("Strong matches", strong.length, shown.filter(({ s }) => s.tier === 1)) + group("Everything else", rest.length, shown.filter(({ s }) => s.tier !== 1))
+    : `<p class="empty-list"><strong>No events match these filters.</strong> Try a longer window, a bigger distance or a shorter search.</p>`;
+  $("pager").innerHTML = pager(pages);
 }
 
 function render() {
@@ -322,6 +364,27 @@ document.addEventListener("click", (ev) => {
   (find(source) ?? find("top") ?? $("picks")).focus({ preventScroll: true });
   after("plan", { id, on: planned.has(id), source });
 });
+
+$("pager").addEventListener("click", (ev) => {
+  const btn = ev.target.closest(".pg");
+  if (!btn || btn.disabled) return;
+  page = Number(btn.dataset.page);
+  renderList();
+  $("all-h").scrollIntoView({ block: "start" });
+  $("all-h").focus({ preventScroll: true });
+  after("filter", {});
+});
+
+// toggle does not bubble, so listen in the capture phase.
+document.addEventListener("toggle", (ev) => {
+  const d = ev.target;
+  if (d.matches?.("details.why")) d.open ? openWhy.add(d.dataset.id) : openWhy.delete(d.dataset.id);
+}, true);
+
+// The PDF shows every score breakdown; the ones opened only for printing close again afterwards.
+let openedForPrint = [];
+addEventListener("beforeprint", () => { openedForPrint = [...document.querySelectorAll("#top details:not([open])")]; openedForPrint.forEach((d) => { d.open = true; }); });
+addEventListener("afterprint", () => openedForPrint.forEach((d) => { d.open = false; }));
 
 $("meta").textContent = `Updated ${fmt(new Date(data.fetchedAt), undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} · ${data.count} events`;
 $("export").addEventListener("click", () => window.print());

@@ -39,10 +39,13 @@
 <main>
 <section class="goal" aria-labelledby="goal-h">
   <div>
-    <p id="eyebrow" class="eyebrow"></p>
     <h2 id="goal-h" class="goal-h serif"></h2>
-    <div id="season" class="season" role="img"></div>
-    <div id="segLabels" class="seg-labels" aria-hidden="true"></div>
+    <p class="goal-sub">Design, UX and AI events around San Francisco, ranked by who's hosting, where it is, how well it fits and your odds of getting in.</p>
+    <div class="days-h">
+      <span>Your next 7 days</span>
+      <span class="days-key" aria-hidden="true"><i class="k-dot"></i>Strong match <i class="k-plan"></i>Planned</span>
+    </div>
+    <ol id="days7" class="days" role="list" aria-label="Your next 7 days"></ol>
   </div>
   <div>
     <div class="slots-h">
@@ -64,7 +67,7 @@
 
 <section class="sec no-print" aria-labelledby="all-h">
   <div class="sec-h">
-    <h2 id="all-h" class="sec-t serif">All upcoming events</h2>
+    <h2 id="all-h" class="sec-t serif" tabindex="-1">All upcoming events</h2>
     <p id="allCount" class="sec-sub" role="status"></p>
   </div>
 
@@ -113,11 +116,8 @@
     </div>
   </div>
 
-  <div class="lhead" aria-hidden="true">
-    <span>Date</span><span>Event</span><span>Venue</span><span>Distance</span><span>Match</span><span>Odds</span><span></span>
-  </div>
-  <ol id="list" class="list" role="list" aria-label="All upcoming events"></ol>
-  <p id="listMore" class="list-more"></p>
+  <div id="list" class="groups"></div>
+  <nav id="pager" class="pager" aria-label="Event pages"></nav>
 </section>
 </main>
 

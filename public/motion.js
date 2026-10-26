@@ -11,7 +11,7 @@ const EASE = "power3.out";
 const CLEAR = "opacity,transform";
 const PANEL = "height,opacity,overflow,paddingTop,paddingBottom";
 // Everything the intro or a scroll reveal can hide; print and the safety timer settle these.
-const HIDEABLE = ".hdr, .goal, .goal-h span, .seg, .slot, #top .card, #list .row, .sec-t, .fbar";
+const HIDEABLE = ".hdr, .goal, .goal-h span, .day, .slot, #top .card, #list .row, .sec-t, .fbar";
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -50,8 +50,7 @@ function intro() {
     .from(".hdr", { y: -12, opacity: 0, duration: 0.6 }, 0)
     .from(".goal", { y: 24, opacity: 0, duration: 0.8 }, 0.1)
     .from(words, { y: 16, opacity: 0, duration: 0.7, stagger: 0.04 }, 0.35)
-    .from(".season .seg", { scaleX: 0, transformOrigin: "0 50%", duration: 0.6, stagger: 0.07 }, 0.6)
-    .to(".seg.current", { scaleY: 1.8, duration: 0.28, yoyo: true, repeat: 1 }, ">-0.15")
+    .from("#days7 .day", { y: 10, opacity: 0, duration: 0.5, stagger: 0.05 }, 0.6)
     .from("#slots .slot", { y: 12, opacity: 0, duration: 0.55, stagger: 0.1 }, 0.85);
 }
 
@@ -73,10 +72,6 @@ function cardsIn() {
     gsap.to(cards, { opacity: 1, yPercent: 0, duration: 0.7, ease: EASE, stagger: 0.09, clearProps: "opacity" });
     cards.forEach(guard((card, i) => {
       const delay = 0.2 + i * 0.09;
-      $$(".fill", card).forEach((fill) => {
-        const width = fill.style.width; // app.js writes the final width inline
-        if (width) gsap.fromTo(fill, { width: "0%" }, { width, duration: 0.9, delay, ease: EASE });
-      });
       const total = $(".total b", card);
       if (parseInt(total?.textContent, 10) > 0) {
         gsap.from(total, { textContent: 0, duration: 1, delay, ease: "power2.out", snap: { textContent: 1 } });
@@ -129,6 +124,16 @@ function filters(open) {
     { height, paddingTop, paddingBottom, opacity: 1, duration: 0.5, ease: EASE, clearProps: PANEL, onComplete: () => ScrollTrigger.refresh() });
 }
 
+// Score bars grow when a breakdown is opened (they sit closed inside <details> until then).
+function factorsIn(e) {
+  const d = e.target;
+  if (!d.open || !d.matches?.("#top details.why")) return;
+  $$(".fill", d).forEach((fill, i) => {
+    const width = fill.style.width; // app.js writes the final width inline
+    if (width) gsap.fromTo(fill, { width: "0%" }, { width, duration: 0.7, delay: i * 0.05, ease: EASE });
+  });
+}
+
 const themeSpin = (e) => {
   const button = e.target.closest?.("#themeToggle");
   if (button) gsap.fromTo($$("svg", button), { rotation: -90, scale: 0.6, opacity: 0 }, { rotation: 0, scale: 1, opacity: 1, duration: 0.55, ease: EASE, clearProps: CLEAR });
@@ -154,6 +159,7 @@ function start(context) {
   [intro, cardsIn, rowsIn, headsIn].forEach((feature) => guard(feature)());
   on(document, "et:filters", (e) => filters(e.detail?.open));
   on(document, "click", themeSpin);
+  document.addEventListener("toggle", guard(factorsIn), { capture: true, signal: off.signal }); // toggle does not bubble
   on(window, "beforeprint", () => { ScrollTrigger.getAll().forEach((t) => t.kill()); settle($$(HIDEABLE)); });
   document.fonts?.ready.then(() => ctx && ScrollTrigger.refresh()); // web fonts move the triggers
   const timer = setTimeout(guard(rescue), 3000);
