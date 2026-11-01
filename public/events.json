@@ -1,397 +1,7 @@
 {
- "fetchedAt": "2026-10-31T17:36:42.383Z",
- "count": 396,
+ "fetchedAt": "2026-11-01T18:21:40.003Z",
+ "count": 413,
  "events": [
-  {
-   "id": "evt-nFZnxLMOJdXBQCS",
-   "title": "Concord Ruby Early Birds",
-   "url": "https://lu.ma/639z200f",
-   "start": "2026-10-31T15:00:00.000Z",
-   "end": "2026-10-31T18:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Concord",
-   "venueHidden": false,
-   "address": "Qamaria Yemeni Coffee Co.",
-   "lat": 37.973531,
-   "lon": -122.04424979999997,
-   "guests": 3,
-   "calendar": "East Bay Ruby",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Robert Fletcher",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.unsplash.com/photo-1551122102-63cd339bfaab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHw2fHxnZW18ZW58MHx8fHwxNzUxOTUyMTY0fDI&ixlib=rb-4.1.0&q=80&w=1080",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-UcPM3Utafqwwqii",
-   "title": "Deep Thinker's Club: Art & Technology Deep Conversation",
-   "url": "https://lu.ma/v2un6fvm",
-   "start": "2026-10-31T17:00:00.000Z",
-   "end": "2026-10-31T19:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.80033397050128,
-   "lon": -122.40642156251765,
-   "guests": 0,
-   "calendar": null,
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Dylan",
-     "verified": false,
-     "bio": "I am the Founder and CEO of Pond. We accelerate startups with funding, growth and GTM."
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": 17,
-   "cover": "https://images.lumacdn.com/uploads/87/b5f37280-55ca-46cc-8839-b4c8b56b9f26.jpg",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-63S3K7nVDyLU6Ac",
-   "title": "DWeb Build Session",
-   "url": "https://lu.ma/715oydhv",
-   "start": "2026-10-31T17:00:00.000Z",
-   "end": "2026-11-01T00:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": false,
-   "address": "399 Webster St",
-   "lat": 37.7740667,
-   "lon": -122.42932669999999,
-   "guests": 6,
-   "calendar": "DWeb",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Steven Elleman",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/km/3e270f8d-68bc-49c1-9cfe-46425940a8c1.png",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-8sHjg1T186HNmz5",
-   "title": "Pylon Cafe",
-   "url": "https://lu.ma/ut0x1l8f",
-   "start": "2026-10-31T17:00:00.000Z",
-   "end": "2026-10-31T20:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.78160510925137,
-   "lon": -122.39352689899384,
-   "guests": 19,
-   "calendar": "Pylon",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Paul Luu",
-     "verified": false,
-     "bio": "Founding Technical Recruiter"
-    },
-    {
-     "name": "jjz",
-     "verified": false,
-     "bio": null
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": true,
-   "spotsRemaining": 1,
-   "cover": "https://images.lumacdn.com/uploads/9y/1c78ec62-8532-4942-aecf-2d8d9b4b1299.png",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-o0kyVy40ay6aAC7",
-   "title": "AI in Action Women Building What Is Next",
-   "url": "https://lu.ma/d79hbl38",
-   "start": "2026-10-31T17:00:00.000Z",
-   "end": "2026-10-31T21:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Mountain View",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.42221725102099,
-   "lon": -122.07809060085923,
-   "guests": 176,
-   "calendar": "WOMEN x AI",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Reut Lazo",
-     "verified": false,
-     "bio": "Co-Founder & Co-CEO of WOMEN x AI, and Board Member at AI2030 and AI Product Leader."
-    },
-    {
-     "name": "Jenny Kay Pollock",
-     "verified": false,
-     "bio": "Co-Founder & Co-CEO of WOMEN x AI (WxAI) | Berkeley SkyDeck Advisor | Angel Investor & Startup Advisor\n\nBuilding community and helping women"
-    },
-    {
-     "name": "Faisal Mushtaq",
-     "verified": false,
-     "bio": null
-    }
-   ],
-   "free": true,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": true,
-   "spotsRemaining": 4,
-   "cover": "https://images.lumacdn.com/uploads/c1/a7091702-e141-45ca-9025-cd2165557c39.jpg",
-   "feeds": [
-    "cat-ai"
-   ]
-  },
-  {
-   "id": "evt-q1YeOJDwWGtIp9E",
-   "title": "Muir Woods w/ Byte",
-   "url": "https://lu.ma/yiaxa336",
-   "start": "2026-10-31T19:00:00.000Z",
-   "end": "2026-10-31T21:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Mill Valley",
-   "venueHidden": false,
-   "address": "Muir Woods Visitor Center",
-   "lat": 37.8928503,
-   "lon": -122.57249789999999,
-   "guests": 7,
-   "calendar": null,
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Oona Kuoppa",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": true,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/8b/ff3afdc0-0499-4407-a06d-0240265849c4.jpg",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-e5z6NVzmJ6eGK1E",
-   "title": "Badminton | TinyFish x Mireye x Vorflux",
-   "url": "https://lu.ma/61ko2aek",
-   "start": "2026-10-31T20:00:00.000Z",
-   "end": "2026-10-31T22:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.8182101627737,
-   "lon": -122.36967192212627,
-   "guests": 0,
-   "calendar": "TinyFish Events",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Lily Yang",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "TinyFish",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Ansh Chokshi",
-     "verified": false,
-     "bio": "CEO @ Mireye"
-    },
-    {
-     "name": "Adrika Guha",
-     "verified": false,
-     "bio": null
-    },
-    {
-     "name": "Sanyam Churiwala",
-     "verified": false,
-     "bio": "Founding Engineer @ Vorflux | ex-Rubrik"
-    },
-    {
-     "name": "Pulkit Jain",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/ms/6daa9133-e1f6-4075-8688-7e7a0887edbc.png",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-YbFBjGGFVnM7vyW",
-   "title": "BOOtstrapped: Night of the Living Builders",
-   "url": "https://lu.ma/r38pmflu",
-   "start": "2026-11-01T02:00:00.000Z",
-   "end": "2026-11-01T06:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.79166350855092,
-   "lon": -122.40028491844792,
-   "guests": 193,
-   "calendar": "Startup Events",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Forrest Liu",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Zev Newman",
-     "verified": false,
-     "bio": "Born & Raised in SF"
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/ss/f1637726-ed04-4ade-8b17-3c262f00cf43.png",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-zUdE66orEkeBNIY",
-   "title": "Darkhaven",
-   "url": "https://lu.ma/halloweengala",
-   "start": "2026-11-01T03:00:00.000Z",
-   "end": "2026-11-01T10:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Berkeley",
-   "venueHidden": false,
-   "address": "Lighthaven",
-   "lat": 37.8599609,
-   "lon": -122.2596008,
-   "guests": 210,
-   "calendar": "The Avalon Institute",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Jonathan Wallis",
-     "verified": false,
-     "bio": "Philosophy, Nietzsche"
-    },
-    {
-     "name": "Matthew Capps",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": false,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/b7/b981b079-459b-4e06-90df-c50fbe69f556.jpg",
-   "feeds": [
-    "discplace-BDj7GNbGlsF7Cka"
-   ]
-  },
-  {
-   "id": "evt-tQSE4MbUyiPSUYA",
-   "title": "! SUBPRESSURE HALLOWEEN RAVE !",
-   "url": "https://lu.ma/lcc2klv1",
-   "start": "2026-11-01T04:30:00.000Z",
-   "end": "2026-11-01T12:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Jose",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.32469632063949,
-   "lon": -121.88886040681552,
-   "guests": 469,
-   "calendar": "LIMO",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Limo",
-     "verified": false,
-     "bio": "BAY AREA"
-    }
-   ],
-   "free": false,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": 957,
-   "cover": "https://images.lumacdn.com/uploads/rv/9dc717d7-0d34-4c5a-b964-e68c80a8f44b.jpg",
-   "feeds": [
-    "discplace-BDj7GNbGlsF7Cka"
-   ]
-  },
   {
    "id": "evt-QAHBamQ3BAEJntW",
    "title": "Bay Area Life Science Hikers- November Edition",
@@ -405,7 +15,7 @@
    "address": "Edgewood park Main parking lot",
    "lat": 37.473297599999995,
    "lon": -122.2783413,
-   "guests": 66,
+   "guests": 53,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -438,6 +48,40 @@
    ]
   },
   {
+   "id": "evt-RszN9EfGCP61gWm",
+   "title": "Visit Stealth-Mode Startup",
+   "url": "https://lu.ma/uzhq0vwe",
+   "start": "2026-11-01T18:00:00.000Z",
+   "end": "2026-11-01T19:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Palo Alto",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.44159608286359,
+   "lon": -122.15979439392001,
+   "guests": 5,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Han",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 15,
+   "cover": "https://images.lumacdn.com/gallery-images/r8/6d051335-7887-48c1-9148-0ea2c9ed1a37",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
    "id": "evt-gmWUmMU67qVAKPT",
    "title": "Creative AI Video Growthathon w/ Higgsfield. Win 8K$ (Offline and Online)",
    "url": "https://lu.ma/14qgzaox",
@@ -450,7 +94,7 @@
    "address": "European Startup Embassy",
    "lat": 37.7819145,
    "lon": -122.39486069999998,
-   "guests": 81,
+   "guests": 136,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -501,7 +145,7 @@
    "waitlist": true,
    "nearCapacity": false,
    "spotsRemaining": 0,
-   "cover": "https://images.lumacdn.com/uploads/iu/0bc94329-ab82-43be-9ae9-3a996cd6f4b2.png",
+   "cover": "https://images.lumacdn.com/uploads/cw/206d747d-4e2e-447d-b406-87ebd780159c.png",
    "feeds": [
     "cat-ai"
    ]
@@ -519,7 +163,7 @@
    "address": "European Startup Embassy",
    "lat": 37.7819145,
    "lon": -122.39486069999998,
-   "guests": 21,
+   "guests": 59,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -557,6 +201,11 @@
      "name": "julius knüpfer",
      "verified": false,
      "bio": null
+    },
+    {
+     "name": "Alem Hodzic",
+     "verified": false,
+     "bio": ""
     }
    ],
    "free": true,
@@ -564,7 +213,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 79,
+   "spotsRemaining": 41,
    "cover": "https://images.lumacdn.com/uploads/qb/e5ef35b0-c775-46e3-90b8-3c2a688da406.png",
    "feeds": [
     "cat-ai"
@@ -600,13 +249,52 @@
    ],
    "free": false,
    "requireApproval": false,
-   "soldOut": false,
+   "soldOut": true,
    "waitlist": false,
-   "nearCapacity": true,
-   "spotsRemaining": 1,
+   "nearCapacity": false,
+   "spotsRemaining": 0,
    "cover": "https://images.lumacdn.com/uploads/ek/16030abb-1fa4-44f2-944b-85b63d4eb98b.jpg",
    "feeds": [
     "discplace-BDj7GNbGlsF7Cka"
+   ]
+  },
+  {
+   "id": "evt-DP7HbsQvtLqh7jZ",
+   "title": "AI Discovery Workshop for Kids",
+   "url": "https://lu.ma/tseumnrb",
+   "start": "2026-11-01T22:00:00.000Z",
+   "end": "2026-11-02T00:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Stanford",
+   "venueHidden": false,
+   "address": "EVGR, Building C",
+   "lat": 37.4269787,
+   "lon": -122.15710770000001,
+   "guests": 10,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "NextGenInitiative Silicon Valley",
+     "verified": false,
+     "bio": "NextGen Initiative is a youth-led organization founded by students, creating programs, events, and opportunities that help the next generati"
+    },
+    {
+     "name": "Asel Tursun",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": false,
+   "requireApproval": false,
+   "soldOut": true,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 0,
+   "cover": "https://images.lumacdn.com/uploads/6c/740351bf-1019-481c-b3f7-a49b89b7e001.jpg",
+   "feeds": [
+    "cat-ai"
    ]
   },
   {
@@ -622,7 +310,7 @@
    "address": "Revival Hall",
    "lat": 37.835004,
    "lon": -122.26412819999999,
-   "guests": 11,
+   "guests": 16,
    "calendar": "SudoRoom",
    "calendarVerified": false,
    "hosts": [
@@ -720,7 +408,7 @@
    "address": "Dwinelle Hall",
    "lat": 37.8707002,
    "lon": -122.2605518,
-   "guests": 119,
+   "guests": 130,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -813,7 +501,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 1116,
+   "spotsRemaining": 1108,
    "cover": "https://images.lumacdn.com/uploads/mw/44702605-f42e-4c64-bfa9-deece8da7b8d.png",
    "feeds": [
     "cat-ai",
@@ -833,7 +521,7 @@
    "address": "Plug and Play Tech Center",
    "lat": 37.3835677,
    "lon": -122.01303329999999,
-   "guests": 593,
+   "guests": 592,
    "calendar": "Plug and Play Physical Industries",
    "calendarVerified": false,
    "hosts": [
@@ -906,7 +594,7 @@
    "address": "AWS Builder Loft",
    "lat": 37.7904122,
    "lon": -122.39934480000001,
-   "guests": 1091,
+   "guests": 1130,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1161,7 +849,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 38,
+   "spotsRemaining": 21,
    "cover": "https://images.lumacdn.com/uploads/eh/f94c7b9a-eb0c-4a82-a936-770edd500ca1.jpg",
    "feeds": [
     "cat-ai"
@@ -1288,7 +976,7 @@
    "address": null,
    "lat": 37.78977460064563,
    "lon": -122.40687941181434,
-   "guests": 20,
+   "guests": 26,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1308,7 +996,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 40,
+   "spotsRemaining": 34,
    "cover": "https://images.lumacdn.com/uploads/o4/9a4385df-5584-41a9-8748-9d38c6e316a2.png",
    "feeds": [
     "cat-tech"
@@ -1386,7 +1074,7 @@
    "address": null,
    "lat": 37.49524495854245,
    "lon": -122.23849586600016,
-   "guests": 127,
+   "guests": 135,
    "calendar": "Mavka Capital Events",
    "calendarVerified": false,
    "hosts": [
@@ -1428,6 +1116,50 @@
    ]
   },
   {
+   "id": "evt-6VsVcMu95jZLq3q",
+   "title": "Investor Dinner - B2B/Enterprise AI, Vertical AI & Cybersecurity - Synexis Premium [By Approval Only]",
+   "url": "https://lu.ma/premai3",
+   "start": "2026-11-03T01:00:00.000Z",
+   "end": "2026-11-03T06:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Carlos",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.50772810920534,
+   "lon": -122.26099905975953,
+   "guests": 0,
+   "calendar": "Synexis.io",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Synexis",
+     "verified": false,
+     "bio": "AI-native infrastructure for private market deals and high-end curated events for capital allocators, founders and enterprises."
+    },
+    {
+     "name": "Dr Pavel Vinitsky",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Vasily",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/1w/7046a9bb-5df5-45b5-9bef-18143a5b9d41.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
    "id": "evt-0W2GVzkGuaKh2Tm",
    "title": "MCP in Production: What’s Missing?",
    "url": "https://lu.ma/elastic-mcp",
@@ -1440,7 +1172,7 @@
    "address": "33 New Montgomery St",
    "lat": 37.788457799999996,
    "lon": -122.40149720000001,
-   "guests": 154,
+   "guests": 173,
    "calendar": "You Know, for Search",
    "calendarVerified": false,
    "hosts": [
@@ -1557,7 +1289,7 @@
    "address": "Bishop Auditorium",
    "lat": 37.4294684,
    "lon": -122.1672722,
-   "guests": 372,
+   "guests": 380,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1589,6 +1321,55 @@
    ]
   },
   {
+   "id": "evt-tCBFLTuyeUZuMni",
+   "title": "Nikesh Arora x Brad Gerstner | Stanford AI Club & BASES",
+   "url": "https://lu.ma/6d8elbie",
+   "start": "2026-11-03T01:30:00.000Z",
+   "end": "2026-11-03T02:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Stanford",
+   "venueHidden": false,
+   "address": "Bishop Auditorium",
+   "lat": 37.4294684,
+   "lon": -122.1672722,
+   "guests": 94,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Tanvir Bhathal",
+     "verified": false,
+     "bio": "CS + Math @ Stanford,\nAI Research @ SAIL"
+    },
+    {
+     "name": "Jason Zhang",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Shobhit Agarwal",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Kate Ragatz",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/y4/6053dc69-ddfd-474a-90fd-cafc4ce0de0a.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
    "id": "evt-owVHHHNZj1H9Fzw",
    "title": "Stanford LP Seminar Series #18 (Rockefeller; Murdock Trust; Dietrich; PFR TFI; Lambourn Capital; Ten Eighty Capital)",
    "url": "https://lu.ma/9kuyivbp",
@@ -1601,7 +1382,7 @@
    "address": "EVGR, Building B",
    "lat": 37.4258758,
    "lon": -122.15799129999999,
-   "guests": 162,
+   "guests": 187,
    "calendar": "Stanford LP Seminar",
    "calendarVerified": false,
    "hosts": [
@@ -1645,7 +1426,7 @@
    "address": null,
    "lat": 37.78709551566475,
    "lon": -122.39653236443826,
-   "guests": 150,
+   "guests": 158,
    "calendar": "ClawCamp",
    "calendarVerified": false,
    "hosts": [
@@ -1670,9 +1451,9 @@
      "bio": null
     },
     {
-     "name": "Colin L.",
+     "name": "Colin Lowe",
      "verified": false,
-     "bio": null
+     "bio": "Head of DevRel @ Tenki.cloud & Luxor.ai"
     }
    ],
    "free": true,
@@ -1680,7 +1461,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 50,
+   "spotsRemaining": 42,
    "cover": "https://images.lumacdn.com/uploads/e3/11c4b082-e6e3-4fc4-b64c-0ad955827aaf.jpg",
    "feeds": [
     "cat-ai"
@@ -1699,7 +1480,7 @@
    "address": "Goethe-Institut San Francisco",
    "lat": 37.7855132,
    "lon": -122.39943419999999,
-   "guests": 11,
+   "guests": 16,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1733,7 +1514,7 @@
    "address": null,
    "lat": 37.756465077365455,
    "lon": -122.44938931904791,
-   "guests": 66,
+   "guests": 77,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1800,6 +1581,11 @@
      "name": "Ni Xu",
      "verified": false,
      "bio": null
+    },
+    {
+     "name": "Xavier Huang",
+     "verified": false,
+     "bio": "Founder of LingCode.dev"
     }
    ],
    "free": true,
@@ -1807,7 +1593,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 49,
+   "spotsRemaining": 26,
    "cover": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwxN3x8aGVhbHRoY2FyZXxlbnwwfHx8fDE3OTI1OTI5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
    "feeds": [
     "cat-ai"
@@ -1858,6 +1644,45 @@
    ]
   },
   {
+   "id": "evt-rjthQhNywIwiW4n",
+   "title": "Archway Labs at the SF Lean Meetup",
+   "url": "https://lu.ma/l83qdr0z",
+   "start": "2026-11-03T03:00:00.000Z",
+   "end": "2026-11-03T05:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "Mox",
+   "lat": 37.7708552,
+   "lon": -122.4199593,
+   "guests": 45,
+   "calendar": "SF Lean Meetup",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Rado Kirov",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Adi Baradwaj",
+     "verified": false,
+     "bio": "Founder of https://astra.markets. Previously at Alameda Research, Google, and UC Berkeley EECS"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.unsplash.com/photo-1713617103392-4fe109f5e0b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwxMTJ8fGFic3RyYWN0JTIwbWF0aHxlbnwwfHx8fDE3NzAwOTU0MTZ8Mg&ixlib=rb-4.1.0&q=80&w=1080",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
    "id": "evt-Pzi0x7hDZXqaBV2",
    "title": "(Unofficial)GamesBeat SF Day1:Dinner & Mixer",
    "url": "https://lu.ma/o4f6ajlh",
@@ -1870,7 +1695,7 @@
    "address": "Hong Kong Clay Pot Restaurant",
    "lat": 37.7958566,
    "lon": -122.40653379999998,
-   "guests": 54,
+   "guests": 58,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -1899,45 +1724,6 @@
    "cover": "https://images.lumacdn.com/gallery-images/gn/74205929-a63e-4019-8704-aaee1ccde05e.png",
    "feeds": [
     "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-rjthQhNywIwiW4n",
-   "title": "SF Lean Meetup",
-   "url": "https://lu.ma/l83qdr0z",
-   "start": "2026-11-03T03:00:00.000Z",
-   "end": "2026-11-03T05:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": false,
-   "address": "Mox",
-   "lat": 37.7708552,
-   "lon": -122.4199593,
-   "guests": 27,
-   "calendar": "SF Lean Meetup",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Rado Kirov",
-     "verified": false,
-     "bio": null
-    },
-    {
-     "name": "Adi Baradwaj",
-     "verified": false,
-     "bio": "Founder of https://astra.markets. Previously at Alameda Research, Google, and UC Berkeley EECS"
-    }
-   ],
-   "free": true,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.unsplash.com/photo-1713617103392-4fe109f5e0b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwxMTJ8fGFic3RyYWN0JTIwbWF0aHxlbnwwfHx8fDE3NzAwOTU0MTZ8Mg&ixlib=rb-4.1.0&q=80&w=1080",
-   "feeds": [
-    "cat-ai"
    ]
   },
   {
@@ -2092,10 +1878,10 @@
    ],
    "free": true,
    "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": true,
-   "spotsRemaining": 1,
+   "soldOut": true,
+   "waitlist": true,
+   "nearCapacity": false,
+   "spotsRemaining": 0,
    "cover": "https://images.lumacdn.com/uploads/fy/e33d42bd-da6e-41af-8c78-c38bb219ef40.png",
    "feeds": [
     "cat-tech"
@@ -2114,7 +1900,7 @@
    "address": "9 Claude Ln",
    "lat": 37.7905114,
    "lon": -122.40446019999999,
-   "guests": 7,
+   "guests": 13,
    "calendar": "MammoCheck",
    "calendarVerified": false,
    "hosts": [
@@ -2136,6 +1922,60 @@
    "nearCapacity": false,
    "spotsRemaining": null,
    "cover": "https://images.lumacdn.com/uploads/vn/2817a5f9-e97b-4681-a08a-ade864785005.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-UJeMoMgi5cp3zAg",
+   "title": "TechEquity Ai Summit 2026: Talks + Workshops + Hackathon, Ft Google, Nvidia, DeepMind, Snowflake and more",
+   "url": "https://lu.ma/ai-summit-2026",
+   "start": "2026-11-03T16:30:00.000Z",
+   "end": "2026-11-07T01:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Menlo Park",
+   "venueHidden": false,
+   "address": "135 Constitution Dr",
+   "lat": 37.4850527,
+   "lon": -122.1762167,
+   "guests": 2252,
+   "calendar": "TechEquity Ai - Silicon Valley",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "TechEquity Ai",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Sheena Tu",
+     "verified": false,
+     "bio": "Co-founder at TechEquity Ai"
+    },
+    {
+     "name": "Mahan Soltanzadeh",
+     "verified": false,
+     "bio": "Co-founder at TechEquity Ai"
+    },
+    {
+     "name": "Dave Nielsen",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Silicon Valley AI Hub",
+     "verified": false,
+     "bio": "The Silicon Valley AI Hub is a community space in Menlo Park where developers, founders and AI leaders come together to build what's next!"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/px/772fbcdb-c0ee-4fbe-8950-bfb8f1a7b861.jpg",
    "feeds": [
     "cat-ai"
    ]
@@ -2183,7 +2023,7 @@
    "soldOut": true,
    "waitlist": true,
    "nearCapacity": false,
-   "spotsRemaining": 68,
+   "spotsRemaining": 55,
    "cover": "https://images.lumacdn.com/uploads/b2/ada1f38b-1643-4d27-93b1-b6ed790f57b1.jpg",
    "feeds": [
     "cat-ai"
@@ -2333,7 +2173,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 24,
+   "spotsRemaining": 11,
    "cover": "https://images.lumacdn.com/uploads/p9/9eda1f6a-3919-4f87-9265-3768bacb08c3.png",
    "feeds": [
     "cat-ai",
@@ -2387,7 +2227,7 @@
    "address": "135 Constitution Dr",
    "lat": 37.4850527,
    "lon": -122.1762167,
-   "guests": 112,
+   "guests": 119,
    "calendar": "TechEquity Ai - Silicon Valley",
    "calendarVerified": false,
    "hosts": [
@@ -2417,7 +2257,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 68,
+   "spotsRemaining": 61,
    "cover": "https://images.lumacdn.com/uploads/7p/682e449b-d918-422e-8e0f-622dc990ae8b.png",
    "feeds": [
     "cat-ai"
@@ -2626,7 +2466,7 @@
    "address": "33 New Montgomery St",
    "lat": 37.788457799999996,
    "lon": -122.40149720000001,
-   "guests": 343,
+   "guests": 350,
    "calendar": "You Know, for Search",
    "calendarVerified": false,
    "hosts": [
@@ -2648,10 +2488,10 @@
    ],
    "free": true,
    "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
+   "soldOut": true,
+   "waitlist": true,
    "nearCapacity": false,
-   "spotsRemaining": 7,
+   "spotsRemaining": 0,
    "cover": "https://images.lumacdn.com/uploads/5r/db7a7e41-7ddd-4d51-8524-9ab3428dbc9a.png",
    "feeds": [
     "cat-ai",
@@ -2671,7 +2511,7 @@
    "address": "Databricks MTV",
    "lat": 37.387028199999996,
    "lon": -122.06159459999999,
-   "guests": 239,
+   "guests": 245,
    "calendar": "Open Lakehouse + AI",
    "calendarVerified": false,
    "hosts": [
@@ -2745,7 +2585,7 @@
    "address": null,
    "lat": 37.79166726245733,
    "lon": -122.3978961075753,
-   "guests": 172,
+   "guests": 180,
    "calendar": "Building AI Together | Union.ai",
    "calendarVerified": false,
    "hosts": [
@@ -2829,7 +2669,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 21,
+   "spotsRemaining": 15,
    "cover": "https://images.lumacdn.com/uploads/tt/011ea630-dc3e-4aab-8aae-c7f8df5aa13b.png",
    "feeds": [
     "cat-tech"
@@ -2848,7 +2688,7 @@
    "address": null,
    "lat": 37.792021612362845,
    "lon": -122.3993700646476,
-   "guests": 83,
+   "guests": 87,
    "calendar": "Press Club",
    "calendarVerified": false,
    "hosts": [
@@ -2868,7 +2708,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 67,
+   "spotsRemaining": 63,
    "cover": "https://images.lumacdn.com/uploads/el/0b9f69ee-55c3-46d9-b6d1-8e4b26b9a40f.png",
    "feeds": [
     "cat-tech"
@@ -2971,7 +2811,7 @@
    "address": "135 Main St",
    "lat": 37.79166,
    "lon": -122.39417300000001,
-   "guests": 112,
+   "guests": 132,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3016,7 +2856,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 38,
+   "spotsRemaining": 18,
    "cover": "https://images.lumacdn.com/uploads/3u/e5805fdf-b58e-45a3-9cc4-0a7793f09200.png",
    "feeds": [
     "cat-tech",
@@ -3036,7 +2876,7 @@
    "address": null,
    "lat": 37.76753392119037,
    "lon": -122.42159342578414,
-   "guests": 114,
+   "guests": 121,
    "calendar": "The Residency - Bay Area",
    "calendarVerified": false,
    "hosts": [
@@ -3066,7 +2906,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 86,
+   "spotsRemaining": 79,
    "cover": "https://images.lumacdn.com/uploads/il/cd5206c8-ba43-437d-af2b-30d3266e8b56.png",
    "feeds": [
     "cat-ai"
@@ -3085,7 +2925,7 @@
    "address": "Computing and Data Science (CoDa)",
    "lat": 37.429902,
    "lon": -122.1716781,
-   "guests": 53,
+   "guests": 68,
    "calendar": "BASES",
    "calendarVerified": false,
    "hosts": [
@@ -3163,7 +3003,7 @@
    "address": null,
    "lat": 37.78856915900553,
    "lon": -122.40101443731425,
-   "guests": 177,
+   "guests": 200,
    "calendar": "Liquid AI",
    "calendarVerified": false,
    "hosts": [
@@ -3178,8 +3018,57 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 23,
+   "spotsRemaining": 50,
    "cover": "https://images.lumacdn.com/uploads/a3/a359f1ac-7b5a-4b13-a76d-e1a4e64cbed8.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-LZqYjJZm8F8xGRg",
+   "title": "Learning Layer Paper Reading Club - Week 38 - Neural Networks Are Already Clean",
+   "url": "https://lu.ma/learning-6j9t",
+   "start": "2026-11-04T01:30:00.000Z",
+   "end": "2026-11-04T03:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "Homebrew Club",
+   "lat": 37.788126399999996,
+   "lon": -122.40537769999999,
+   "guests": 0,
+   "calendar": "Learning Layer Labs",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Thomas",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Mat Allen",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Devinder Sodhi (LLL)",
+     "verified": false,
+     "bio": "Founder of Learning Layer Labs. Dedicated to reducing Tech Anxiety through education that connects the audience to their world."
+    },
+    {
+     "name": "Amitabh Das",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/api-uploads/cu/e488f13c-e2fd-4938-aec3-3b97d3badc5e.png",
    "feeds": [
     "cat-ai"
    ]
@@ -3197,7 +3086,7 @@
    "address": null,
    "lat": 37.78237048245536,
    "lon": -122.39321979416832,
-   "guests": 48,
+   "guests": 58,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3265,7 +3154,7 @@
    "address": "Jacobs Institute for Design Innovation",
    "lat": 37.8760227,
    "lon": -122.2588207,
-   "guests": 137,
+   "guests": 140,
    "calendar": "Design Field Notes",
    "calendarVerified": false,
    "hosts": [
@@ -3397,7 +3286,7 @@
    "address": null,
    "lat": 37.794415314337755,
    "lon": -122.39659745597368,
-   "guests": 21,
+   "guests": 23,
    "calendar": "Better Games, Better Gamers",
    "calendarVerified": false,
    "hosts": [
@@ -3422,7 +3311,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 59,
+   "spotsRemaining": 56,
    "cover": "https://images.lumacdn.com/uploads/ji/a23c3ce6-d192-46ff-8749-ed7e509e40de.png",
    "feeds": [
     "cat-ai"
@@ -3441,7 +3330,7 @@
    "address": null,
    "lat": 37.736843164176776,
    "lon": -122.47339711962836,
-   "guests": 28,
+   "guests": 31,
    "calendar": "Vibe House",
    "calendarVerified": false,
    "hosts": [
@@ -3466,7 +3355,7 @@
    "soldOut": true,
    "waitlist": true,
    "nearCapacity": false,
-   "spotsRemaining": 7,
+   "spotsRemaining": 4,
    "cover": "https://images.lumacdn.com/uploads/wj/3b9527d8-0a75-4138-b6f4-91fd8bcb64dc.webp",
    "feeds": [
     "cat-ai"
@@ -3485,7 +3374,7 @@
    "address": null,
    "lat": 37.79179850303868,
    "lon": -122.40497158547555,
-   "guests": 36,
+   "guests": 38,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3529,7 +3418,7 @@
    "address": "2210-A S Shore Center",
    "lat": 37.7570347,
    "lon": -122.25295519999997,
-   "guests": 4,
+   "guests": 6,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3549,7 +3438,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 16,
+   "spotsRemaining": 14,
    "cover": "https://images.lumacdn.com/uploads/sp/0d54688e-06d7-4e47-af0a-bf65a0a69b44.jpg",
    "feeds": [
     "cat-ai"
@@ -3602,7 +3491,7 @@
    "address": "Startup Island TAIWAN - Silicon Valley Hub",
    "lat": 37.427426,
    "lon": -122.14372209999999,
-   "guests": 13,
+   "guests": 16,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3641,7 +3530,7 @@
    "address": "Meyhouse Sunnyvale",
    "lat": 37.3763504,
    "lon": -122.03054569999999,
-   "guests": 17,
+   "guests": 23,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3654,11 +3543,6 @@
      "name": "ipek celiksoz",
      "verified": false,
      "bio": ""
-    },
-    {
-     "name": "Aymıla Toyran",
-     "verified": false,
-     "bio": null
     }
    ],
    "free": true,
@@ -3666,7 +3550,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 33,
+   "spotsRemaining": 27,
    "cover": "https://images.lumacdn.com/uploads/wt/bf0e4bd3-234a-48c6-ad0f-74dbe3371017.png",
    "feeds": [
     "cat-tech"
@@ -3763,7 +3647,7 @@
    "address": "Dwinelle Hall",
    "lat": 37.870531799999995,
    "lon": -122.26060419999999,
-   "guests": 26,
+   "guests": 27,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -3929,7 +3813,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 25,
+   "spotsRemaining": 21,
    "cover": "https://images.lumacdn.com/uploads/02/e46677f2-8725-4293-8f29-9ffa8c66520b.jpg",
    "feeds": [
     "cat-tech"
@@ -4114,7 +3998,7 @@
    "address": null,
    "lat": 37.427084050808745,
    "lon": -122.16460382963157,
-   "guests": 112,
+   "guests": 121,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -4232,7 +4116,7 @@
    "address": "135 Constitution Dr",
    "lat": 37.4850527,
    "lon": -122.1762167,
-   "guests": 283,
+   "guests": 293,
    "calendar": "TechEquity Ai - Silicon Valley",
    "calendarVerified": false,
    "hosts": [
@@ -4267,7 +4151,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 367,
+   "spotsRemaining": 357,
    "cover": "https://images.lumacdn.com/uploads/1m/5aa787cc-0881-460b-9a39-fdfced4eb15b.png",
    "feeds": [
     "cat-ai"
@@ -4286,7 +4170,7 @@
    "address": "135 Constitution Dr",
    "lat": 37.4850527,
    "lon": -122.1762167,
-   "guests": 47,
+   "guests": 48,
    "calendar": "TechEquity Ai - Silicon Valley",
    "calendarVerified": false,
    "hosts": [
@@ -4316,7 +4200,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 133,
+   "spotsRemaining": 132,
    "cover": "https://images.lumacdn.com/uploads/ah/ae020c22-7d05-4646-bc34-82479c31d3b8.jpg",
    "feeds": [
     "cat-ai"
@@ -4486,7 +4370,7 @@
    "address": null,
    "lat": 37.40820136642534,
    "lon": -122.06000741263428,
-   "guests": 144,
+   "guests": 145,
    "calendar": "CMU Integrated Innovation Institute",
    "calendarVerified": false,
    "hosts": [
@@ -4501,7 +4385,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 31,
+   "spotsRemaining": 30,
    "cover": "https://images.lumacdn.com/uploads/o9/78440488-311a-4930-92f1-da4717f2d3ea.png",
    "feeds": [
     "cat-tech"
@@ -4540,7 +4424,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 405,
+   "spotsRemaining": 396,
    "cover": "https://images.lumacdn.com/uploads/hg/5f90745d-3a6c-42cc-b22b-1c8501234483.png",
    "feeds": [
     "cat-ai",
@@ -4707,7 +4591,7 @@
    "address": "Stanford Graduate School of Business",
    "lat": 37.4280521,
    "lon": -122.1611732,
-   "guests": 43,
+   "guests": 44,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -4729,45 +4613,6 @@
    "nearCapacity": false,
    "spotsRemaining": null,
    "cover": "https://images.unsplash.com/photo-1612237811405-65d21a5f9af5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHw3fHxzdGFuZm9yZHxlbnwwfHx8fDE3ODk2NzUyMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-   "feeds": [
-    "cat-tech"
-   ]
-  },
-  {
-   "id": "evt-gVNjemwfGWaPnFX",
-   "title": "International Founders Showcase | JETRO StartX Program",
-   "url": "https://lu.ma/t6cv72q6",
-   "start": "2026-11-05T01:00:00.000Z",
-   "end": "2026-11-05T03:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Palo Alto",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.4435568867837,
-   "lon": -122.15691695434636,
-   "guests": 76,
-   "calendar": "StartX Partners",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "StartX Team",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Darsh Singh Mann",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwyfHxwaXRjaGluZ3xlbnwwfHx8fDE3OTAwOTk5NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
    "feeds": [
     "cat-tech"
    ]
@@ -4820,8 +4665,47 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 20,
+   "spotsRemaining": 19,
    "cover": "https://images.lumacdn.com/uploads/kb/a60e30d6-1b0f-4480-8721-84ce07620f95.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-gVNjemwfGWaPnFX",
+   "title": "International Founders Showcase | JETRO StartX Program",
+   "url": "https://lu.ma/t6cv72q6",
+   "start": "2026-11-05T01:00:00.000Z",
+   "end": "2026-11-05T03:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Palo Alto",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.4435568867837,
+   "lon": -122.15691695434636,
+   "guests": 76,
+   "calendar": "StartX Partners",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "StartX Team",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Darsh Singh Mann",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwyfHxwaXRjaGluZ3xlbnwwfHx8fDE3OTAwOTk5NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
    "feeds": [
     "cat-tech"
    ]
@@ -4839,7 +4723,7 @@
    "address": "OneSpace Work",
    "lat": 37.3876645,
    "lon": -121.93014629999999,
-   "guests": 148,
+   "guests": 154,
    "calendar": "Data For AI Events",
    "calendarVerified": false,
    "hosts": [
@@ -4888,7 +4772,7 @@
    "address": null,
    "lat": 37.766949685779004,
    "lon": -122.42209606446627,
-   "guests": 65,
+   "guests": 75,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -4913,7 +4797,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 55,
+   "spotsRemaining": 45,
    "cover": "https://images.lumacdn.com/uploads/2z/1d4c83db-c4ce-4399-9278-9812fd315d16.jpg",
    "feeds": [
     "cat-ai"
@@ -4932,7 +4816,7 @@
    "address": null,
    "lat": 37.40419757279523,
    "lon": -122.04925169539689,
-   "guests": 47,
+   "guests": 49,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -4966,7 +4850,7 @@
    "address": "625 2nd St",
    "lat": 37.7816889,
    "lon": -122.3908867,
-   "guests": 162,
+   "guests": 175,
    "calendar": "Bright Data",
    "calendarVerified": false,
    "hosts": [
@@ -4999,7 +4883,8 @@
    "spotsRemaining": null,
    "cover": "https://images.lumacdn.com/uploads/rr/7ca919f5-b8ef-4c4b-99dd-f18b1057d1ba.png",
    "feeds": [
-    "cat-ai"
+    "cat-ai",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -5015,7 +4900,7 @@
    "address": "Bella lounge and bar SF",
    "lat": 37.7713355,
    "lon": -122.41376670000001,
-   "guests": 73,
+   "guests": 77,
    "calendar": "Albert's List Live Events",
    "calendarVerified": false,
    "hosts": [
@@ -5094,7 +4979,7 @@
    "address": "Cloudflare",
    "lat": 37.7803014,
    "lon": -122.39072150000001,
-   "guests": 93,
+   "guests": 114,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -5112,7 +4997,8 @@
    "spotsRemaining": null,
    "cover": "https://images.lumacdn.com/uploads/58/46d7d209-338f-41d8-b00e-399924f9d6c9.jpg",
    "feeds": [
-    "cat-tech"
+    "cat-tech",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -5128,7 +5014,7 @@
    "address": "PlanetScale",
    "lat": 37.7871285,
    "lon": -122.39898659999999,
-   "guests": 215,
+   "guests": 217,
    "calendar": "PlanetScale",
    "calendarVerified": false,
    "hosts": [
@@ -5207,7 +5093,7 @@
    "address": null,
    "lat": 37.394215690497056,
    "lon": -122.08218672486413,
-   "guests": 37,
+   "guests": 36,
    "calendar": "Innodata Inc.",
    "calendarVerified": false,
    "hosts": [
@@ -5305,7 +5191,7 @@
    "address": null,
    "lat": 37.43446564747826,
    "lon": -122.18403497891805,
-   "guests": 89,
+   "guests": 94,
    "calendar": "Denmark in Silicon Valley",
    "calendarVerified": false,
    "hosts": [],
@@ -5314,7 +5200,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 111,
+   "spotsRemaining": 106,
    "cover": "https://images.lumacdn.com/uploads/zf/51c0e48e-c8e5-4c00-a5a9-b6b29ba65956.png",
    "feeds": [
     "cat-ai",
@@ -5359,7 +5245,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 154,
+   "spotsRemaining": 148,
    "cover": "https://images.lumacdn.com/uploads/r4/09de2db1-7f8d-43c1-b782-75979f6caac2.png",
    "feeds": [
     "cat-ai"
@@ -5412,7 +5298,7 @@
    "address": "Amplitude",
    "lat": 37.7850203,
    "lon": -122.3999147,
-   "guests": 147,
+   "guests": 146,
    "calendar": "Amplitude Community",
    "calendarVerified": false,
    "hosts": [
@@ -5452,7 +5338,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 203,
+   "spotsRemaining": 204,
    "cover": "https://images.lumacdn.com/uploads/2y/6801b533-8c4a-4348-ad8a-a2145dec5be1.png",
    "feeds": [
     "cat-ai",
@@ -5504,6 +5390,40 @@
    ]
   },
   {
+   "id": "evt-1mpzrjvyNlDuqIU",
+   "title": "Wikidata's Birthday",
+   "url": "https://lu.ma/5lq1nj44",
+   "start": "2026-11-05T02:00:00.000Z",
+   "end": "2026-11-05T05:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "The Fold",
+   "lat": 37.7489607,
+   "lon": -122.4172885,
+   "guests": 4,
+   "calendar": "Bay Area Wikipedians",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Bay Area Wikipedians",
+     "verified": false,
+     "bio": "The Bay Area Wikipedians is an organization supporting Wikimedians and promoting the open knowledge movement in the SF-Bay Area."
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/my/2f7e0b04-0303-40cf-ba96-04e9922ff0e1.jpg",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
    "id": "evt-VmbDMzQKcut65hb",
    "title": "Central & Eastern European Founders Night",
    "url": "https://lu.ma/u1pso5wc",
@@ -5516,7 +5436,7 @@
    "address": "European Startup Embassy",
    "lat": 37.7819145,
    "lon": -122.39486069999998,
-   "guests": 58,
+   "guests": 69,
    "calendar": "European Startup Embassy",
    "calendarVerified": false,
    "hosts": [
@@ -5570,8 +5490,42 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 24,
+   "spotsRemaining": 25,
    "cover": "https://images.lumacdn.com/uploads/xe/23e535f5-2b62-4f51-971c-a7127c9fcd51.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-LYvKYycKf9c78uh",
+   "title": "Lightning Mesh Hackathon",
+   "url": "https://lu.ma/cht228yq",
+   "start": "2026-11-05T02:00:00.000Z",
+   "end": "2026-11-05T05:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "399 Webster St",
+   "lat": 37.7740667,
+   "lon": -122.42932669999999,
+   "guests": 6,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Duke Dorje",
+     "verified": false,
+     "bio": "Building IdentiKey: a self-certifying agentic Internet. Own your identity and data. Reclaim sovereignty with cryptography\nKey Management, AI"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 19,
+   "cover": "https://images.lumacdn.com/uploads/nv/8c05e3de-e083-4f4b-aa71-8104f01e3e66.jpg",
    "feeds": [
     "cat-tech"
    ]
@@ -5604,7 +5558,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 7,
+   "spotsRemaining": 6,
    "cover": "https://images.lumacdn.com/uploads/wy/c6d76bd5-c6ad-43e6-83c1-094cc0456916.png",
    "feeds": [
     "cat-tech"
@@ -5623,7 +5577,7 @@
    "address": null,
    "lat": 37.783448044414804,
    "lon": -122.39474351680141,
-   "guests": 14,
+   "guests": 15,
    "calendar": "Self-Improving Software Workshop",
    "calendarVerified": false,
    "hosts": [
@@ -5655,35 +5609,60 @@
    ]
   },
   {
-   "id": "evt-1mpzrjvyNlDuqIU",
-   "title": "Wikidata's Birthday",
-   "url": "https://lu.ma/5lq1nj44",
+   "id": "evt-tvVK9GOn8I0KooK",
+   "title": "The Peptide Party",
+   "url": "https://lu.ma/t94g5wdu",
    "start": "2026-11-05T02:00:00.000Z",
    "end": "2026-11-05T05:00:00.000Z",
    "timezone": "America/Los_Angeles",
    "online": false,
    "city": "San Francisco",
    "venueHidden": false,
-   "address": "The Fold",
-   "lat": 37.7489607,
-   "lon": -122.4172885,
-   "guests": 3,
-   "calendar": "Bay Area Wikipedians",
+   "address": "SS Jeremiah O'Brien",
+   "lat": 37.8086539,
+   "lon": -122.40687439999999,
+   "guests": 0,
+   "calendar": "The Biopunk Community",
    "calendarVerified": false,
    "hosts": [
     {
-     "name": "Bay Area Wikipedians",
+     "name": "Yuva Krishnapillai",
      "verified": false,
-     "bio": "The Bay Area Wikipedians is an organization supporting Wikimedians and promoting the open knowledge movement in the SF-Bay Area."
+     "bio": ""
+    },
+    {
+     "name": "Jeff Tang",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Roxana Grunenwald",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Tori",
+     "verified": false,
+     "bio": "Also known as Birb"
+    },
+    {
+     "name": "Elia Ahmadi",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Elliot Roth",
+     "verified": false,
+     "bio": ""
     }
    ],
-   "free": true,
-   "requireApproval": false,
+   "free": false,
+   "requireApproval": true,
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/my/2f7e0b04-0303-40cf-ba96-04e9922ff0e1.jpg",
+   "spotsRemaining": 30,
+   "cover": "https://images.lumacdn.com/uploads/ey/fe9e8792-7e58-4394-b5a6-bbf4fe362b48.png",
    "feeds": [
     "cat-tech"
    ]
@@ -5882,7 +5861,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 28,
+   "spotsRemaining": 29,
    "cover": "https://images.lumacdn.com/uploads/ce/f184f56c-7c94-4344-878b-0f52fbc92e99.png",
    "feeds": [
     "cat-ai"
@@ -5940,7 +5919,7 @@
    "address": null,
    "lat": 37.77586324550015,
    "lon": -122.42469352249587,
-   "guests": 217,
+   "guests": 218,
    "calendar": "AI Engineers - SF",
    "calendarVerified": false,
    "hosts": [
@@ -5955,7 +5934,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 483,
+   "spotsRemaining": 482,
    "cover": "https://images.lumacdn.com/uploads/x8/b329b87b-d876-46e6-b75c-7e009d777edb.png",
    "feeds": [
     "cat-ai"
@@ -5974,7 +5953,7 @@
    "address": null,
    "lat": 37.73750976556327,
    "lon": -122.47287332755434,
-   "guests": 37,
+   "guests": 39,
    "calendar": "Vibe House",
    "calendarVerified": false,
    "hosts": [
@@ -6043,11 +6022,45 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 47,
-   "cover": "https://images.lumacdn.com/uploads/x8/24c29ddc-3f8a-4f01-aed1-2eff448818c9.png",
+   "spotsRemaining": 27,
+   "cover": "https://images.lumacdn.com/uploads/wl/e0dfc3fe-36d1-4105-b629-8e6ae5b7017a.png",
    "feeds": [
     "cat-ai",
     "discplace-BDj7GNbGlsF7Cka"
+   ]
+  },
+  {
+   "id": "evt-8qHvJ0wXXnZHfgs",
+   "title": "Recursively Self-Improving Money Stuff",
+   "url": "https://lu.ma/oit6f4qe",
+   "start": "2026-11-05T02:00:00.000Z",
+   "end": "2026-11-05T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.75741941383055,
+   "lon": -122.41702149240807,
+   "guests": 3,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Alex Pizzirani",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 12,
+   "cover": "https://images.lumacdn.com/uploads/w2/3b3f934f-a521-4487-9f89-39e2fac2197e.jpg",
+   "feeds": [
+    "cat-ai"
    ]
   },
   {
@@ -6193,6 +6206,40 @@
    ]
   },
   {
+   "id": "evt-ogpGsFbOESTNemd",
+   "title": "Pitch & Run San Francisco",
+   "url": "https://lu.ma/o5js8rqb",
+   "start": "2026-11-05T02:30:00.000Z",
+   "end": "2026-11-05T04:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "Willie Mays Gate",
+   "lat": 37.7781411,
+   "lon": -122.3909379,
+   "guests": 5,
+   "calendar": "Viviana Hurtado Pitch & Run SF",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Viviana Hurtado",
+     "verified": false,
+     "bio": "Runner. Doggo. Familia. Proud daughter of immigrants. CPG Startup. Founder."
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 20,
+   "cover": "https://images.lumacdn.com/event-covers/3v/939026b3-7bd7-412c-a47a-873efa862815",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
    "id": "evt-ZX6tvtiKPFN8ePy",
    "title": "Private Security Dinner at Roka Akor | SF",
    "url": "https://lu.ma/ox-exclusive-owasp-sf",
@@ -6269,7 +6316,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 85,
+   "spotsRemaining": 83,
    "cover": "https://images.lumacdn.com/uploads/3c/24326b83-90b8-4958-b127-ae199d8baf12.png",
    "feeds": [
     "cat-tech"
@@ -6288,7 +6335,7 @@
    "address": "Southern Pacific Brewing",
    "lat": 37.760076,
    "lon": -122.414224,
-   "guests": 9,
+   "guests": 10,
    "calendar": "YC Alumni - San Francisco",
    "calendarVerified": false,
    "hosts": [
@@ -6352,7 +6399,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 100,
+   "spotsRemaining": 87,
    "cover": "https://images.lumacdn.com/uploads/of/bfd04734-1f73-4862-9864-331d54134c1a.png",
    "feeds": [
     "cat-ai"
@@ -6498,7 +6545,7 @@
    "address": "Madrone Art Bar",
    "lat": 37.7742011,
    "lon": -122.4373746,
-   "guests": 63,
+   "guests": 66,
    "calendar": "Big Brain Lectures - Bay Area",
    "calendarVerified": false,
    "hosts": [
@@ -6513,7 +6560,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 28,
+   "spotsRemaining": 24,
    "cover": "https://images.lumacdn.com/uploads/cl/d27a3d4d-f41b-4310-a08b-11b2aa4fd7fb.png",
    "feeds": [
     "cat-tech"
@@ -6532,7 +6579,7 @@
    "address": "1745 Yosemite Ave",
    "lat": 37.7281488,
    "lon": -122.39450309999998,
-   "guests": 9,
+   "guests": 14,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -6547,7 +6594,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 31,
+   "spotsRemaining": 26,
    "cover": "https://images.lumacdn.com/uploads/9k/b4210172-2dbe-4764-9dd5-d18f373b10f0.png",
    "feeds": [
     "cat-tech"
@@ -6566,7 +6613,7 @@
    "address": "Frontier Tower 🧑‍🚀",
    "lat": 37.7822672,
    "lon": -122.4099607,
-   "guests": 98,
+   "guests": 99,
    "calendar": "Startup Valley",
    "calendarVerified": false,
    "hosts": [
@@ -6586,7 +6633,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 45,
+   "spotsRemaining": 44,
    "cover": "https://images.lumacdn.com/api-uploads/uz/6a090b20-02ec-4c94-a22e-7e979f589ff9",
    "feeds": [
     "cat-tech"
@@ -6639,7 +6686,7 @@
    "address": "San Francisco Marriott Marquis",
    "lat": 37.7853366,
    "lon": -122.40440679999999,
-   "guests": 459,
+   "guests": 460,
    "calendar": "Box Devs",
    "calendarVerified": false,
    "hosts": [
@@ -6688,7 +6735,7 @@
    "address": "SVB Experience Center",
    "lat": 37.7905863,
    "lon": -122.40033319999998,
-   "guests": 119,
+   "guests": 123,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -6718,7 +6765,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 10,
+   "spotsRemaining": 15,
    "cover": "https://images.lumacdn.com/uploads/3q/4d912f77-2067-43ec-b26a-ce088e7e5125.png",
    "feeds": [
     "cat-tech"
@@ -6781,7 +6828,7 @@
    "address": "135 Constitution Dr",
    "lat": 37.4850527,
    "lon": -122.1762167,
-   "guests": 146,
+   "guests": 153,
    "calendar": "TechEquity Ai - Silicon Valley",
    "calendarVerified": false,
    "hosts": [
@@ -6938,7 +6985,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 16,
+   "spotsRemaining": 14,
    "cover": "https://images.lumacdn.com/uploads/hn/d80ed58b-196e-4276-900a-4dbed7ced63c.jpg",
    "feeds": [
     "cat-tech"
@@ -7119,7 +7166,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": true,
-   "spotsRemaining": 5,
+   "spotsRemaining": 4,
    "cover": "https://images.lumacdn.com/uploads/dv/29073328-6cfd-4455-8c68-cd57dcafd7f2.jpg",
    "feeds": [
     "cat-ai"
@@ -7172,7 +7219,7 @@
    "address": "135 Constitution Dr",
    "lat": 37.4850527,
    "lon": -122.1762167,
-   "guests": 347,
+   "guests": 367,
    "calendar": "TechEquity Ai - Silicon Valley",
    "calendarVerified": false,
    "hosts": [
@@ -7207,7 +7254,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 303,
+   "spotsRemaining": 283,
    "cover": "https://images.lumacdn.com/uploads/la/274fbd5d-cf11-4b48-a450-a64ebcbaeeee.jpg",
    "feeds": [
     "cat-ai"
@@ -7226,7 +7273,7 @@
    "address": "Pier 1",
    "lat": 37.796874599999995,
    "lon": -122.39512610000001,
-   "guests": 49,
+   "guests": 50,
    "calendar": "Mixpanel",
    "calendarVerified": false,
    "hosts": [
@@ -7309,7 +7356,7 @@
    "address": "525 Market St",
    "lat": 37.7908003,
    "lon": -122.39924250000001,
-   "guests": 40,
+   "guests": 45,
    "calendar": "TrackIt Events",
    "calendarVerified": false,
    "hosts": [
@@ -7412,7 +7459,7 @@
    "address": "100 Middlefield Rd",
    "lat": 37.454952,
    "lon": -122.16424889999999,
-   "guests": 189,
+   "guests": 193,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -7529,7 +7576,7 @@
    "address": "140 New Montgomery St",
    "lat": 37.786702,
    "lon": -122.400136,
-   "guests": 21,
+   "guests": 20,
    "calendar": "super{set}",
    "calendarVerified": false,
    "hosts": [
@@ -7551,6 +7598,85 @@
    ]
   },
   {
+   "id": "evt-CAyfez1pRS6cG4o",
+   "title": "AI Native Founder Workshop: Review best-in-class AI tools + panel of founders using them",
+   "url": "https://lu.ma/91htze18",
+   "start": "2026-11-06T01:00:00.000Z",
+   "end": "2026-11-06T03:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Palo Alto",
+   "venueHidden": false,
+   "address": "Venture Dock",
+   "lat": 37.4492166,
+   "lon": -122.15877200000001,
+   "guests": 68,
+   "calendar": "Venture Dock's Calendar",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Mike Prince",
+     "verified": false,
+     "bio": "Helping you live longer, live healthier, live happier, and prosper. The secret is to surround yourself with the best people. ThirdPlaces.ai"
+    },
+    {
+     "name": "Vinod Paniker",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Venture Dock",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": true,
+   "spotsRemaining": 2,
+   "cover": "https://images.lumacdn.com/uploads/6i/f5c7a2c4-80a9-41d3-a101-9d8f8c9a7252.jpg",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-FyhuoitprIMCIGH",
+   "title": "SYSTEM UPDATE with The Pragmatic Engineer",
+   "url": "https://lu.ma/systemupdate",
+   "start": "2026-11-06T01:00:00.000Z",
+   "end": "2026-11-06T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "The Howard SF",
+   "lat": 37.7853542,
+   "lon": -122.3994943,
+   "guests": 0,
+   "calendar": "Sentry",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Sentry",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 83,
+   "cover": "https://images.lumacdn.com/uploads/q0/161ccb31-bd72-45bd-84af-5cc4e7e440b7.jpg",
+   "feeds": [
+    "cat-ai",
+    "discplace-BDj7GNbGlsF7Cka"
+   ]
+  },
+  {
    "id": "evt-jC9E0eRqMWmeKgm",
    "title": "Agent-Led Growth / Agent Experience Demo Night @ Auth0/Okta (#7th Edition)",
    "url": "https://lu.ma/axdemonight",
@@ -7563,7 +7689,7 @@
    "address": "Okta",
    "lat": 37.7895063,
    "lon": -122.39744179999998,
-   "guests": 307,
+   "guests": 321,
    "calendar": "Lightsage",
    "calendarVerified": false,
    "hosts": [
@@ -7593,52 +7719,8 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 193,
+   "spotsRemaining": 179,
    "cover": "https://images.lumacdn.com/uploads/2m/0b4a05d0-06ce-4949-8c6e-0ae47b88140f.png",
-   "feeds": [
-    "cat-ai"
-   ]
-  },
-  {
-   "id": "evt-CAyfez1pRS6cG4o",
-   "title": "AI Native Founder Workshop: Review best-in-class AI tools + panel of founders using them",
-   "url": "https://lu.ma/91htze18",
-   "start": "2026-11-06T01:00:00.000Z",
-   "end": "2026-11-06T03:30:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Palo Alto",
-   "venueHidden": false,
-   "address": "Venture Dock",
-   "lat": 37.4492166,
-   "lon": -122.15877200000001,
-   "guests": 67,
-   "calendar": "Venture Dock's Calendar",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Mike Prince",
-     "verified": false,
-     "bio": "Helping you live longer, live healthier, live happier, and prosper. The secret is to surround yourself with the best people. ThirdPlaces.ai"
-    },
-    {
-     "name": "Vinod Paniker",
-     "verified": false,
-     "bio": null
-    },
-    {
-     "name": "Venture Dock",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": true,
-   "spotsRemaining": 3,
-   "cover": "https://images.lumacdn.com/uploads/6i/f5c7a2c4-80a9-41d3-a101-9d8f8c9a7252.jpg",
    "feeds": [
     "cat-ai"
    ]
@@ -7678,60 +7760,6 @@
    ]
   },
   {
-   "id": "evt-jDw391a9suyCBDF",
-   "title": "GTM for AI Native Startups",
-   "url": "https://lu.ma/26n1li5r",
-   "start": "2026-11-06T01:00:00.000Z",
-   "end": "2026-11-06T03:30:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.785049260869165,
-   "lon": -122.40455551179204,
-   "guests": 0,
-   "calendar": "Onsen Global",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Tiffine Wang",
-     "verified": false,
-     "bio": "AI Native Investor, Onsen Global, Singtel Innov8"
-    },
-    {
-     "name": "Onsen Global",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Peach Nashed",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Alchemist",
-     "verified": false,
-     "bio": "Alchemist is an early-stage venture firm — a premier investor and community for deeply technical founders."
-    },
-    {
-     "name": "Sruti",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": true,
-   "waitlist": true,
-   "nearCapacity": false,
-   "spotsRemaining": 0,
-   "cover": "https://images.lumacdn.com/gallery-images/cb/5d3f7620-0a4d-4a7e-af65-5d427f5f0d4a.png",
-   "feeds": [
-    "cat-ai"
-   ]
-  },
-  {
    "id": "evt-oLX2bHR1wuUfyUB",
    "title": "Llama Lounge 27: The AI Startup Event Series @ SAP",
    "url": "https://lu.ma/llamalounge27",
@@ -7744,7 +7772,7 @@
    "address": null,
    "lat": 37.39983256984022,
    "lon": -122.148058056412,
-   "guests": 715,
+   "guests": 726,
    "calendar": "Llama Lounge: The AI Startup Series",
    "calendarVerified": false,
    "hosts": [
@@ -7759,45 +7787,10 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 35,
+   "spotsRemaining": 24,
    "cover": "https://images.lumacdn.com/uploads/40/43207dae-84a3-4b20-a9b8-786394667057.png",
    "feeds": [
     "cat-ai"
-   ]
-  },
-  {
-   "id": "evt-FyhuoitprIMCIGH",
-   "title": "SYSTEM UPDATE with The Pragmatic Engineer",
-   "url": "https://lu.ma/systemupdate",
-   "start": "2026-11-06T01:00:00.000Z",
-   "end": "2026-11-06T04:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": false,
-   "address": "The Howard SF",
-   "lat": 37.7853542,
-   "lon": -122.3994943,
-   "guests": 0,
-   "calendar": "Sentry",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Sentry",
-     "verified": false,
-     "bio": ""
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": 90,
-   "cover": "https://images.lumacdn.com/uploads/q0/161ccb31-bd72-45bd-84af-5cc4e7e440b7.jpg",
-   "feeds": [
-    "cat-ai",
-    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -7852,7 +7845,7 @@
    "address": null,
    "lat": 37.794664805577334,
    "lon": -122.40070973801632,
-   "guests": 97,
+   "guests": 98,
    "calendar": "Founders Bay",
    "calendarVerified": false,
    "hosts": [
@@ -7964,7 +7957,7 @@
    "address": "House of AI",
    "lat": 37.774522999999995,
    "lon": -122.40312300000001,
-   "guests": 120,
+   "guests": 124,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -7994,7 +7987,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 180,
+   "spotsRemaining": 176,
    "cover": "https://images.lumacdn.com/uploads/cv/cfffda68-4283-4b15-be33-ea3b2a6eda30.png",
    "feeds": [
     "cat-tech"
@@ -8083,7 +8076,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 141,
+   "spotsRemaining": 133,
    "cover": "https://images.lumacdn.com/uploads/ag/0c36ac64-4e90-444d-970c-770becf07b2b.png",
    "feeds": [
     "cat-tech"
@@ -8117,7 +8110,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 175,
+   "spotsRemaining": 173,
    "cover": "https://images.lumacdn.com/uploads/bs/fc10016e-f358-4c1a-87fc-298bec867705.png",
    "feeds": [
     "cat-tech"
@@ -8341,7 +8334,7 @@
    "address": null,
    "lat": 37.776767575595265,
    "lon": -122.38832888691194,
-   "guests": 190,
+   "guests": 203,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -8356,7 +8349,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 10,
+   "spotsRemaining": 12,
    "cover": "https://images.lumacdn.com/uploads/ts/7d069496-9a96-412f-98b2-92a0aefe1e5f.png",
    "feeds": [
     "cat-tech",
@@ -8376,7 +8369,7 @@
    "address": null,
    "lat": 37.75571579000756,
    "lon": -122.45153762996273,
-   "guests": 104,
+   "guests": 107,
    "calendar": "Fireside Dinners by Astronomic",
    "calendarVerified": false,
    "hosts": [
@@ -8391,7 +8384,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 16,
+   "spotsRemaining": 13,
    "cover": "https://images.lumacdn.com/uploads/28/90409504-e00a-495d-b16c-7a16a200a879.png",
    "feeds": [
     "cat-tech"
@@ -8428,7 +8421,8 @@
    "spotsRemaining": 95,
    "cover": "https://images.lumacdn.com/uploads/hb/21c69ae2-8002-4b4c-86b5-99b4ff8cae60.png",
    "feeds": [
-    "cat-tech"
+    "cat-tech",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -8444,7 +8438,7 @@
    "address": "Stripe",
    "lat": 37.662175500000004,
    "lon": -122.38286930000001,
-   "guests": 137,
+   "guests": 140,
    "calendar": "Stripe Developer Meetups",
    "calendarVerified": false,
    "hosts": [
@@ -8459,7 +8453,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 263,
+   "spotsRemaining": 260,
    "cover": "https://images.lumacdn.com/uploads/3u/bea258d4-56cf-4a3e-b6f7-9444624415bc.png",
    "feeds": [
     "cat-tech"
@@ -8556,7 +8550,7 @@
    "address": "560 Davis St suite 250",
    "lat": 37.7977255,
    "lon": -122.3982202,
-   "guests": 354,
+   "guests": 353,
    "calendar": "Baseten Events",
    "calendarVerified": false,
    "hosts": [
@@ -8723,7 +8717,7 @@
    "address": "Visa - San Francisco Mission Rock Office",
    "lat": 37.7757463,
    "lon": -122.3887508,
-   "guests": 32,
+   "guests": 40,
    "calendar": "VISA Developer Events",
    "calendarVerified": false,
    "hosts": [
@@ -8748,7 +8742,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 68,
+   "spotsRemaining": 60,
    "cover": "https://images.lumacdn.com/uploads/5q/9ed2bb1f-d1a9-4bea-b488-45c440fc73eb.png",
    "feeds": [
     "cat-ai"
@@ -9037,7 +9031,7 @@
    "address": null,
    "lat": 37.78334473334766,
    "lon": -122.40450917621408,
-   "guests": 20,
+   "guests": 23,
    "calendar": "Founders & Operators",
    "calendarVerified": false,
    "hosts": [
@@ -9067,7 +9061,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": true,
-   "spotsRemaining": 1,
+   "spotsRemaining": 2,
    "cover": "https://images.lumacdn.com/uploads/gk/5ded3738-792c-4172-abb6-12b4b8a85319.png",
    "feeds": [
     "cat-ai"
@@ -9213,7 +9207,7 @@
    "address": "The Progress",
    "lat": 37.7836666,
    "lon": -122.43297069999998,
-   "guests": 13,
+   "guests": 16,
    "calendar": "Hedge",
    "calendarVerified": false,
    "hosts": [
@@ -9238,7 +9232,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": true,
-   "spotsRemaining": 5,
+   "spotsRemaining": 2,
    "cover": "https://images.lumacdn.com/uploads/8q/eddc6723-9e71-4463-910a-c28b4dfbb158.png",
    "feeds": [
     "cat-ai"
@@ -9257,7 +9251,7 @@
    "address": "475 Sansome St 8th floor",
    "lat": 37.794685,
    "lon": -122.40170780000001,
-   "guests": 142,
+   "guests": 151,
    "calendar": "Freestyle",
    "calendarVerified": false,
    "hosts": [
@@ -9374,7 +9368,7 @@
    "address": "Sentry",
    "lat": 37.7912489,
    "lon": -122.3971488,
-   "guests": 161,
+   "guests": 166,
    "calendar": "SREday + LLMday + PLATFORMday",
    "calendarVerified": false,
    "hosts": [
@@ -9419,7 +9413,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 89,
+   "spotsRemaining": 84,
    "cover": "https://images.lumacdn.com/uploads/lo/c2704d97-9e9e-4bd1-b4af-a598835d3d05.png",
    "feeds": [
     "cat-tech"
@@ -9438,7 +9432,7 @@
    "address": null,
    "lat": 37.725439670638615,
    "lon": -122.45220502321897,
-   "guests": 21,
+   "guests": 24,
    "calendar": "Worldwide Studios",
    "calendarVerified": false,
    "hosts": [
@@ -9458,7 +9452,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 29,
+   "spotsRemaining": 26,
    "cover": "https://images.lumacdn.com/uploads/iu/aee8278d-0c16-400b-ac17-08118a50760b.png",
    "feeds": [
     "cat-ai"
@@ -9477,7 +9471,7 @@
    "address": "Frances C. Arrillaga Alumni Center",
    "lat": 37.430724999999995,
    "lon": -122.16480000000001,
-   "guests": 132,
+   "guests": 136,
    "calendar": "Startup Events @ Stanford Founders",
    "calendarVerified": false,
    "hosts": [
@@ -9580,7 +9574,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 32,
+   "spotsRemaining": 31,
    "cover": "https://images.lumacdn.com/api-uploads/oo/61d16606-d6e0-49aa-967b-9da3204a58ab.png",
    "feeds": [
     "cat-ai"
@@ -9599,7 +9593,7 @@
    "address": "Amplitude Analytics",
    "lat": 37.7850203,
    "lon": -122.3999147,
-   "guests": 125,
+   "guests": 128,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -9641,6 +9635,55 @@
    ]
   },
   {
+   "id": "evt-giacrJut8MDb22M",
+   "title": "Founders GTM Coffee Meetup",
+   "url": "https://lu.ma/8v9rokfj",
+   "start": "2026-11-06T22:00:00.000Z",
+   "end": "2026-11-07T00:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.7957232788723,
+   "lon": -122.40535430238405,
+   "guests": 10,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Thred",
+     "verified": false,
+     "bio": "pull the thread"
+    },
+    {
+     "name": "Aishwariya Ranjan",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Aryan Bisht",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Vidya Narayanan",
+     "verified": false,
+     "bio": "Entrepreneur"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 40,
+   "cover": "https://images.lumacdn.com/uploads/vz/e60f92de-dd1f-419b-a5e2-28591b3374d5.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
    "id": "evt-DUofofWWMQHZbkl",
    "title": "Geospatial Developers Meetup",
    "url": "https://lu.ma/binndri6",
@@ -9653,7 +9696,7 @@
    "address": "Peacock Meadow",
    "lat": 37.771571,
    "lon": -122.457653,
-   "guests": 50,
+   "guests": 61,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -9665,10 +9708,10 @@
    ],
    "free": true,
    "requireApproval": false,
-   "soldOut": true,
-   "waitlist": true,
+   "soldOut": false,
+   "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 0,
+   "spotsRemaining": 14,
    "cover": "https://images.lumacdn.com/uploads/sf/49d69b42-4c15-46ec-892e-dc40f2f87dd1.jpg",
    "feeds": [
     "cat-tech",
@@ -9727,7 +9770,7 @@
    "address": "Qualcomm",
    "lat": 37.3745242,
    "lon": -121.98482680000001,
-   "guests": 114,
+   "guests": 123,
    "calendar": "[SF] HackerSquad",
    "calendarVerified": false,
    "hosts": [
@@ -9771,7 +9814,7 @@
    "address": "The Ritz-Carlton, San Francisco",
    "lat": 37.791812,
    "lon": -122.4069001,
-   "guests": 67,
+   "guests": 76,
    "calendar": "Chen Institute",
    "calendarVerified": false,
    "hosts": [
@@ -9786,7 +9829,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 33,
+   "spotsRemaining": 24,
    "cover": "https://images.lumacdn.com/uploads/8j/c999293d-1f4f-43d3-93bf-5e824b505320.png",
    "feeds": [
     "cat-ai"
@@ -9909,7 +9952,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 99,
+   "spotsRemaining": 97,
    "cover": "https://images.lumacdn.com/uploads/jc/c94ff284-37b9-475e-97d9-bd1743fe3388.png",
    "feeds": [
     "cat-ai"
@@ -9943,7 +9986,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 951,
+   "spotsRemaining": 947,
    "cover": "https://images.lumacdn.com/uploads/wk/8159c92d-0e17-4d66-8ab4-7859eca87aee.jpg",
    "feeds": [
     "cat-tech"
@@ -9996,7 +10039,7 @@
    "address": null,
    "lat": 37.80538620113467,
    "lon": -122.27094539336105,
-   "guests": 475,
+   "guests": 481,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10069,7 +10112,7 @@
    "address": null,
    "lat": 37.48634482352361,
    "lon": -122.18025519312673,
-   "guests": 5,
+   "guests": 9,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10084,7 +10127,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 25,
+   "spotsRemaining": 21,
    "cover": "https://images.lumacdn.com/uploads/03/74110eaa-46ad-4d24-bc28-331a292a95cc.png",
    "feeds": [
     "cat-ai"
@@ -10157,7 +10200,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 403,
+   "spotsRemaining": 383,
    "cover": "https://images.lumacdn.com/uploads/sq/af9aa383-2ace-4720-917c-989c7b7ef592.png",
    "feeds": [
     "cat-tech"
@@ -10176,7 +10219,7 @@
    "address": "Founders, Inc. | San Francisco Lab",
    "lat": 37.8069129,
    "lon": -122.4318963,
-   "guests": 6,
+   "guests": 8,
    "calendar": "Founders, Inc. Events",
    "calendarVerified": false,
    "hosts": [
@@ -10200,6 +10243,104 @@
    "cover": "https://images.lumacdn.com/uploads/ee/9d9811ae-293d-4b28-8ba7-01045f543d63.png",
    "feeds": [
     "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-M0Xk1gzYXepUllj",
+   "title": "Builders who Run — Golden Gate Bridge 4M",
+   "url": "https://lu.ma/28hzh4b9",
+   "start": "2026-11-07T17:00:00.000Z",
+   "end": "2026-11-07T18:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.80665513695025,
+   "lon": -122.47424023111853,
+   "guests": 0,
+   "calendar": "Solo Founders",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Solo Founders",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Julian Weisser",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/event-covers/jr/f7770996-70c4-4a17-829f-a681aac15686.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-2mUWk5mBSEJlQjQ",
+   "title": "Growth Engineering Hackathon SF / Win 8K$",
+   "url": "https://lu.ma/d7k1r7h4",
+   "start": "2026-11-07T18:00:00.000Z",
+   "end": "2026-11-08T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "European Startup Embassy",
+   "lat": 37.7819145,
+   "lon": -122.39486069999998,
+   "guests": 4,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Falco Schneider",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Federico De Ponte",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Julius Olsson",
+     "verified": false,
+     "bio": "Founder building security for autonomous AI agents in San Francisco."
+    },
+    {
+     "name": "David Plügge",
+     "verified": false,
+     "bio": "Here to help and connect the right people :)"
+    },
+    {
+     "name": "Vin Wanfan",
+     "verified": false,
+     "bio": "Building @ BridgeUs"
+    },
+    {
+     "name": "Nicolas Cano Luengo",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/9g/dc570082-ba33-43cf-b73f-57d27fb286bc.png",
+   "feeds": [
+    "cat-tech"
    ]
   },
   {
@@ -10245,7 +10386,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 13,
+   "spotsRemaining": 8,
    "cover": "https://images.lumacdn.com/uploads/bk/627d151d-df8c-48b1-a351-048994efd34f.png",
    "feeds": [
     "cat-tech"
@@ -10328,7 +10469,7 @@
    "address": "1885 Mission St",
    "lat": 37.766869,
    "lon": -122.4196054,
-   "guests": 122,
+   "guests": 133,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10377,7 +10518,7 @@
    "address": null,
    "lat": 37.51716126135298,
    "lon": -122.29429493969384,
-   "guests": 85,
+   "guests": 84,
    "calendar": "Mactoberfest Meetup",
    "calendarVerified": false,
    "hosts": [
@@ -10402,7 +10543,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 87,
+   "spotsRemaining": 88,
    "cover": "https://images.lumacdn.com/uploads/jo/87f0d651-7953-4f74-adfb-8eb56d468fb0.png",
    "feeds": [
     "cat-tech"
@@ -10421,7 +10562,7 @@
    "address": "JOE & THE JUICE",
    "lat": 37.7897,
    "lon": -122.39429990000001,
-   "guests": 3,
+   "guests": 5,
    "calendar": "Plethora",
    "calendarVerified": false,
    "hosts": [
@@ -10455,7 +10596,7 @@
    "address": "201 Steiner St",
    "lat": 37.771083,
    "lon": -122.43209619999998,
-   "guests": 9,
+   "guests": 10,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10474,8 +10615,8 @@
    "requireApproval": false,
    "soldOut": false,
    "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": 6,
+   "nearCapacity": true,
+   "spotsRemaining": 5,
    "cover": "https://images.lumacdn.com/gallery-images/9m/cc9994de-f46e-4128-a763-3803f9b9059a",
    "feeds": [
     "cat-ai"
@@ -10494,7 +10635,7 @@
    "address": null,
    "lat": 37.5555026739481,
    "lon": -122.29949034677597,
-   "guests": 94,
+   "guests": 100,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10520,7 +10661,7 @@
    "id": "evt-vox5FrfKxCmic59",
    "title": "Annual Startup Networking Event (Free)",
    "url": "https://lu.ma/5h2ckb0s",
-   "start": "2026-11-08T17:00:00.000Z",
+   "start": "2026-11-08T16:00:00.000Z",
    "end": "2026-11-09T00:00:00.000Z",
    "timezone": "America/Los_Angeles",
    "online": false,
@@ -10529,7 +10670,7 @@
    "address": "539 E Weddell Dr",
    "lat": 37.3971744,
    "lon": -122.0154387,
-   "guests": 22,
+   "guests": 29,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10544,7 +10685,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 277,
+   "spotsRemaining": 270,
    "cover": "https://images.lumacdn.com/uploads/es/c2c87557-ddda-4df7-9065-376323b77b2e.jpg",
    "feeds": [
     "cat-tech"
@@ -10636,7 +10777,7 @@
    "address": "Stanford University",
    "lat": 37.427659999999996,
    "lon": -122.17005999999999,
-   "guests": 25,
+   "guests": 29,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10791,6 +10932,11 @@
      "name": "PlanetScale",
      "verified": false,
      "bio": "The fastest MySQL and Postgres in the cloud."
+    },
+    {
+     "name": "Christian Glassiognon",
+     "verified": false,
+     "bio": "PlanetScale"
     }
    ],
    "free": true,
@@ -10801,7 +10947,8 @@
    "spotsRemaining": null,
    "cover": "https://images.lumacdn.com/api-uploads/34/de397d0f-cdf7-47b5-9136-bf098e3439ef.png",
    "feeds": [
-    "cat-tech"
+    "cat-tech",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -10840,6 +10987,40 @@
    ]
   },
   {
+   "id": "evt-71sKl0ydDJWUvwY",
+   "title": "[SF] AI Dev Night at Workato",
+   "url": "https://lu.ma/tgcmi0vw",
+   "start": "2026-11-10T01:30:00.000Z",
+   "end": "2026-11-10T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.762445751217754,
+   "lon": -122.39031673238289,
+   "guests": 0,
+   "calendar": "AICamp",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "AICamp admin",
+     "verified": false,
+     "bio": "building AICamp"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 188,
+   "cover": "https://images.lumacdn.com/event-covers/q8/22327d07-4aa8-4270-b0fc-a118fe8199ee.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
    "id": "evt-7L6y3dgO91KXY0E",
    "title": "Stanford LP Seminar Series #19 (KfW Capital; Rogue Insight Capital; Abu Dhabi Pension Fund; Andreani & Associés; IMF)",
    "url": "https://lu.ma/0ctbgh06",
@@ -10852,7 +11033,7 @@
    "address": "Stanford Graduate School of Business",
    "lat": 37.4280521,
    "lon": -122.1611732,
-   "guests": 114,
+   "guests": 121,
    "calendar": "Stanford LP Seminar",
    "calendarVerified": false,
    "hosts": [
@@ -10969,7 +11150,7 @@
    "address": "Convex",
    "lat": 37.764288900000004,
    "lon": -122.40174909999999,
-   "guests": 54,
+   "guests": 55,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -10994,7 +11175,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 246,
+   "spotsRemaining": 245,
    "cover": "https://images.lumacdn.com/uploads/u6/46d01a07-6a62-46d6-a7d5-c99405677279.png",
    "feeds": [
     "cat-ai"
@@ -11013,7 +11194,7 @@
    "address": "tiat",
    "lat": 37.7861601,
    "lon": -122.4082452,
-   "guests": 17,
+   "guests": 20,
    "calendar": "tiat (the intersection of art & technology)",
    "calendarVerified": false,
    "hosts": [
@@ -11299,7 +11480,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 146,
+   "spotsRemaining": 145,
    "cover": "https://images.lumacdn.com/uploads/ye/ea134767-9403-4e25-83d4-642617bc94a7.png",
    "feeds": [
     "cat-ai"
@@ -11406,7 +11587,7 @@
    "address": null,
    "lat": 37.77326548163314,
    "lon": -122.40189780701553,
-   "guests": 24,
+   "guests": 26,
    "calendar": "Acute Immersive",
    "calendarVerified": false,
    "hosts": [
@@ -11520,7 +11701,7 @@
    "address": null,
    "lat": 37.80678914436085,
    "lon": -122.40148365011495,
-   "guests": 364,
+   "guests": 370,
    "calendar": "The Residency - Bay Area",
    "calendarVerified": false,
    "hosts": [
@@ -11550,7 +11731,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 336,
+   "spotsRemaining": 330,
    "cover": "https://images.lumacdn.com/uploads/jk/577a0b7e-e1ec-4a59-9c55-47af58d5ce6b.png",
    "feeds": [
     "cat-ai",
@@ -11590,7 +11771,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 75,
+   "spotsRemaining": 74,
    "cover": "https://images.lumacdn.com/uploads/68/d69e99c9-5414-47df-8661-dd11f7b58158.jpg",
    "feeds": [
     "cat-ai"
@@ -11631,40 +11812,6 @@
    ]
   },
   {
-   "id": "evt-IacSWqqv47sZqFO",
-   "title": "[SV] AWS Partner Showcase Extended with Anthropic, Caylent, Temporal, LaunchPad",
-   "url": "https://lu.ma/xv6954nd",
-   "start": "2026-11-11T00:30:00.000Z",
-   "end": "2026-11-11T04:30:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "Sunnyvale",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.383336568438956,
-   "lon": -122.01029698935417,
-   "guests": 0,
-   "calendar": "AICamp",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "AICamp admin",
-     "verified": false,
-     "bio": "building AICamp"
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/za/8ce8a766-a623-4f57-991f-400d35d252ea.png",
-   "feeds": [
-    "cat-ai"
-   ]
-  },
-  {
    "id": "evt-791bqIhlAvzLQQD",
    "title": "Design Chat with Alex Cornell, Meta",
    "url": "https://lu.ma/alex-cornell-spc",
@@ -11700,7 +11847,42 @@
    "spotsRemaining": null,
    "cover": "https://images.lumacdn.com/uploads/ly/216ef742-f1ed-483e-a9b2-f05ee3c7bd32.png",
    "feeds": [
+    "cat-tech",
     "discplace-BDj7GNbGlsF7Cka"
+   ]
+  },
+  {
+   "id": "evt-IacSWqqv47sZqFO",
+   "title": "[SV] AWS Partner Showcase Extended with Anthropic, Caylent, Temporal, LaunchPad",
+   "url": "https://lu.ma/xv6954nd",
+   "start": "2026-11-11T00:30:00.000Z",
+   "end": "2026-11-11T04:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Sunnyvale",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.383336568438956,
+   "lon": -122.01029698935417,
+   "guests": 0,
+   "calendar": "AICamp",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "AICamp admin",
+     "verified": false,
+     "bio": "building AICamp"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/za/8ce8a766-a623-4f57-991f-400d35d252ea.png",
+   "feeds": [
+    "cat-ai"
    ]
   },
   {
@@ -11760,7 +11942,7 @@
    "address": "Uber | Sunnyvale",
    "lat": 37.3762021,
    "lon": -122.03408049999999,
-   "guests": 68,
+   "guests": 70,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -11795,7 +11977,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 32,
+   "spotsRemaining": 30,
    "cover": "https://images.lumacdn.com/uploads/ci/4dabd49b-28ee-4338-9792-931f208d30b5.jpg",
    "feeds": [
     "cat-tech"
@@ -11836,6 +12018,50 @@
    "nearCapacity": false,
    "spotsRemaining": 27,
    "cover": "https://images.lumacdn.com/uploads/8c/e63ac01f-84dd-4766-8d7d-7cce7aee223f.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-vg4ZgWNtj8sDm7y",
+   "title": "Biryani Maxxing: A Diwali Feast & Multiplayer AI Mixer",
+   "url": "https://lu.ma/biryanimaxxing",
+   "start": "2026-11-11T01:00:00.000Z",
+   "end": "2026-11-11T03:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.78804243996196,
+   "lon": -122.39606114466983,
+   "guests": 30,
+   "calendar": "PromptQL Events",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Laura Cruickshanks",
+     "verified": false,
+     "bio": "Ex-Salesforce, Ex-Pendo, now PromptQL."
+    },
+    {
+     "name": "Tanmai Gopal",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Rajoshi Ghosh",
+     "verified": false,
+     "bio": "Co-founder PromptQL / Hasura"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 170,
+   "cover": "https://images.lumacdn.com/api-uploads/90/77a59930-ee9f-4182-9cdf-a8041885c335.png",
    "feeds": [
     "cat-ai"
    ]
@@ -11897,7 +12123,7 @@
    "address": "GitHub",
    "lat": 37.7822664,
    "lon": -122.39116439999998,
-   "guests": 88,
+   "guests": 93,
    "calendar": "Microsoft Foundry Live",
    "calendarVerified": false,
    "hosts": [
@@ -11912,52 +12138,8 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 292,
+   "spotsRemaining": 287,
    "cover": "https://images.lumacdn.com/uploads/kk/37bd4dbc-de87-4500-addb-a7b544583916.png",
-   "feeds": [
-    "cat-ai"
-   ]
-  },
-  {
-   "id": "evt-vg4ZgWNtj8sDm7y",
-   "title": "Biryani Maxxing: A Diwali Feast & Multiplayer AI Mixer",
-   "url": "https://lu.ma/biryanimaxxing",
-   "start": "2026-11-11T01:00:00.000Z",
-   "end": "2026-11-11T03:00:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": true,
-   "address": null,
-   "lat": 37.78804243996196,
-   "lon": -122.39606114466983,
-   "guests": 20,
-   "calendar": "PromptQL Events",
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Laura Cruickshanks",
-     "verified": false,
-     "bio": "Ex-Salesforce, Ex-Pendo, now PromptQL."
-    },
-    {
-     "name": "Tanmai Gopal",
-     "verified": false,
-     "bio": null
-    },
-    {
-     "name": "Rajoshi Ghosh",
-     "verified": false,
-     "bio": "Co-founder PromptQL / Hasura"
-    }
-   ],
-   "free": true,
-   "requireApproval": true,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": 180,
-   "cover": "https://images.lumacdn.com/api-uploads/90/77a59930-ee9f-4182-9cdf-a8041885c335.png",
    "feeds": [
     "cat-ai"
    ]
@@ -12205,7 +12387,7 @@
    "address": "Jacobs Institute for Design Innovation",
    "lat": 37.8760227,
    "lon": -122.2588207,
-   "guests": 176,
+   "guests": 185,
    "calendar": "Design Field Notes",
    "calendarVerified": false,
    "hosts": [
@@ -12290,7 +12472,7 @@
    "address": "1700 Mission St",
    "lat": 37.769841,
    "lon": -122.42038880000001,
-   "guests": 9,
+   "guests": 12,
    "calendar": "SF Beer",
    "calendarVerified": false,
    "hosts": [
@@ -12324,7 +12506,7 @@
    "address": null,
    "lat": 37.7747677213181,
    "lon": -122.39975649205533,
-   "guests": 87,
+   "guests": 94,
    "calendar": "Archil",
    "calendarVerified": false,
    "hosts": [
@@ -12344,8 +12526,47 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 13,
+   "spotsRemaining": 6,
    "cover": "https://images.lumacdn.com/uploads/iy/b13df6b3-90c9-4bcc-bac8-2c97a93cd023.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-AXojzn0PL5xIpGa",
+   "title": "Bay Area AI Artists November Show, Critique & Promote Night",
+   "url": "https://lu.ma/ec34l8b0",
+   "start": "2026-11-11T02:00:00.000Z",
+   "end": "2026-11-11T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Mountain View",
+   "venueHidden": false,
+   "address": "Hacker Dojo",
+   "lat": 37.3962541,
+   "lon": -122.04907449999999,
+   "guests": 3,
+   "calendar": "Bay Area AI Artists Group",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Hacker Dojo",
+     "verified": false,
+     "bio": "Providing an affordable space in Silicon Valley for anyone to learn, collaborate, and bring ideas to life."
+    },
+    {
+     "name": "James Yin",
+     "verified": false,
+     "bio": "AI storyteller. https://www.youtube.com/@saizostudio"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/li/67e58f87-1595-4685-a14e-e7d6048ee258.png",
    "feeds": [
     "cat-ai"
    ]
@@ -12380,6 +12601,50 @@
    "nearCapacity": false,
    "spotsRemaining": 22,
    "cover": "https://images.lumacdn.com/uploads/8c/98916899-41a7-438c-978b-c42dbff3305a.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-S5PSUVkuM1KoIze",
+   "title": "Funded Founders x Foundess Dinner",
+   "url": "https://lu.ma/FFFoundessSeries1",
+   "start": "2026-11-11T02:00:00.000Z",
+   "end": "2026-11-11T05:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.80044184127703,
+   "lon": -122.44827270330127,
+   "guests": 0,
+   "calendar": "Superconnected",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Mabel Chan",
+     "verified": false,
+     "bio": "Hosted 100+ events in Silicon Valley.\nNewsletter Subscribers 15k - Behiiv"
+    },
+    {
+     "name": "Pear Chotbunwong",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Vivian Kao",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 24,
+   "cover": "https://images.lumacdn.com/uploads/me/c5bbfdc9-07f8-4227-bfd1-2f72f8da91aa.png",
    "feeds": [
     "cat-ai"
    ]
@@ -12471,7 +12736,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 158,
+   "spotsRemaining": 152,
    "cover": "https://images.lumacdn.com/uploads/or/3bc0ee57-6bf4-4e0b-af71-7f8bd4a42c0d.png",
    "feeds": [
     "cat-ai"
@@ -12563,7 +12828,7 @@
    "address": null,
    "lat": 37.428982208684175,
    "lon": -122.14371693852289,
-   "guests": 15,
+   "guests": 16,
    "calendar": "Aureum Leaders Circle",
    "calendarVerified": false,
    "hosts": [
@@ -12598,7 +12863,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 10,
+   "spotsRemaining": 9,
    "cover": "https://images.lumacdn.com/uploads/jp/8962199d-ebd2-49c7-8584-6dcaf8287822.png",
    "feeds": [
     "cat-tech"
@@ -12656,7 +12921,7 @@
    "address": null,
    "lat": 37.784366360856104,
    "lon": -122.42337995411073,
-   "guests": 132,
+   "guests": 135,
    "calendar": "Founders Bay",
    "calendarVerified": false,
    "hosts": [
@@ -12725,7 +12990,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 158,
+   "spotsRemaining": 150,
    "cover": "https://images.lumacdn.com/uploads/jt/748f205f-fbb5-4cda-9ac1-182392076483.png",
    "feeds": [
     "discplace-BDj7GNbGlsF7Cka"
@@ -12744,7 +13009,7 @@
    "address": "Innovative Genomics Institute Building",
    "lat": 37.8738312,
    "lon": -122.26693650000001,
-   "guests": 20,
+   "guests": 21,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -12876,7 +13141,7 @@
    "address": "2168 Shattuck Ave.",
    "lat": 37.869768,
    "lon": -122.268468,
-   "guests": 33,
+   "guests": 34,
    "calendar": "Berkeley Gateway Accelerator",
    "calendarVerified": false,
    "hosts": [
@@ -12896,7 +13161,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 7,
+   "spotsRemaining": 6,
    "cover": "https://images.lumacdn.com/uploads/sq/712989e3-2340-4838-b306-70480f5d5383.png",
    "feeds": [
     "cat-tech"
@@ -12950,14 +13215,9 @@
    "lat": 37.42695494941766,
    "lon": -122.16860691430337,
    "guests": 0,
-   "calendar": null,
+   "calendar": "Medal and General Intuition",
    "calendarVerified": false,
    "hosts": [
-    {
-     "name": "Spencer Ma",
-     "verified": false,
-     "bio": ""
-    },
     {
      "name": "Alexandra Takei",
      "verified": false,
@@ -12977,7 +13237,8 @@
    "spotsRemaining": null,
    "cover": "https://images.lumacdn.com/uploads/t4/0d3bf223-361e-46b4-848c-e2331ac1aa46.jpg",
    "feeds": [
-    "cat-ai"
+    "cat-ai",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -13286,7 +13547,7 @@
    "address": null,
    "lat": 37.78157426107329,
    "lon": -122.38929879829941,
-   "guests": 56,
+   "guests": 57,
    "calendar": "GitHub for Startups",
    "calendarVerified": false,
    "hosts": [
@@ -13311,7 +13572,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 144,
+   "spotsRemaining": 143,
    "cover": "https://images.lumacdn.com/uploads/dr/ec817787-b308-4e14-870a-e5e816b28c36.png",
    "feeds": [
     "cat-ai"
@@ -13403,7 +13664,7 @@
    "address": null,
    "lat": 37.41123337615883,
    "lon": -122.07351435468121,
-   "guests": 26,
+   "guests": 27,
    "calendar": "AI Tech Leaders' Club",
    "calendarVerified": false,
    "hosts": [
@@ -13418,7 +13679,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 24,
+   "spotsRemaining": 23,
    "cover": "https://images.lumacdn.com/uploads/d3/ada83220-502c-42e0-8ee5-09aefa2276ea.png",
    "feeds": [
     "cat-ai"
@@ -13437,7 +13698,7 @@
    "address": null,
    "lat": 37.804504068620005,
    "lon": -122.42593822698764,
-   "guests": 37,
+   "guests": 57,
    "calendar": "NVIDIA",
    "calendarVerified": false,
    "hosts": [
@@ -13594,7 +13855,7 @@
    "address": null,
    "lat": 37.769854653396024,
    "lon": -122.42143581272904,
-   "guests": 133,
+   "guests": 141,
    "calendar": "AI Safety San Francisco",
    "calendarVerified": false,
    "hosts": [
@@ -13673,7 +13934,7 @@
     }
    ],
    "free": true,
-   "requireApproval": true,
+   "requireApproval": false,
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
@@ -13696,7 +13957,7 @@
    "address": "9Zero Climate Innovation Hub",
    "lat": 37.7934074,
    "lon": -122.40084399999999,
-   "guests": 94,
+   "guests": 98,
    "calendar": "Grid Innovation Hub",
    "calendarVerified": false,
    "hosts": [
@@ -13740,7 +14001,7 @@
    "address": "340 E Middlefield Rd",
    "lat": 37.3973562,
    "lon": -122.05830820000001,
-   "guests": 116,
+   "guests": 117,
    "calendar": "Bay Area Robotics (BARA)",
    "calendarVerified": false,
    "hosts": [
@@ -13760,7 +14021,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 184,
+   "spotsRemaining": 183,
    "cover": "https://images.lumacdn.com/uploads/f0/c9f35ec1-60a0-4695-81db-6271878847a3.png",
    "feeds": [
     "cat-ai"
@@ -13794,7 +14055,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 1807,
+   "spotsRemaining": 1788,
    "cover": "https://images.lumacdn.com/uploads/40/712aadf2-5c57-4dc6-83cd-03fc52595b20.gif",
    "feeds": [
     "cat-ai"
@@ -13897,7 +14158,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 33,
+   "spotsRemaining": 31,
    "cover": "https://images.lumacdn.com/uploads/eh/517cf246-ba9c-4ab7-87f8-dac932b35f1e.png",
    "feeds": [
     "cat-ai"
@@ -14177,6 +14438,40 @@
    ]
   },
   {
+   "id": "evt-ByzhpKbInlfaZXZ",
+   "title": "Agents after Dark Build Night @ Berkeley eHub",
+   "url": "https://lu.ma/x63yuq1r",
+   "start": "2026-11-13T00:00:00.000Z",
+   "end": "2026-11-13T05:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Berkeley",
+   "venueHidden": false,
+   "address": "2232 Piedmont Ave",
+   "lat": 37.8707762,
+   "lon": -122.25307059999999,
+   "guests": 0,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Founder Square",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 95,
+   "cover": "https://images.lumacdn.com/uploads/zk/cbaade1d-0c73-4112-8c50-9174873e3c61.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
    "id": "evt-u7jBBIUHDHGHxLk",
    "title": "MBC BioLabs AI Discovery Platforms Innovation Forum",
    "url": "https://lu.ma/n8dbgyky",
@@ -14228,7 +14523,7 @@
    "address": null,
    "lat": 37.793930988245705,
    "lon": -122.39566948400285,
-   "guests": 5,
+   "guests": 13,
    "calendar": "Inception Studio Events",
    "calendarVerified": false,
    "hosts": [
@@ -14319,40 +14614,6 @@
    ]
   },
   {
-   "id": "evt-uCtGa5dpFbbQFjb",
-   "title": "Google Happy Hour @ SGLang Summit",
-   "url": "https://lu.ma/sjndgq98",
-   "start": "2026-11-13T00:30:00.000Z",
-   "end": "2026-11-13T02:30:00.000Z",
-   "timezone": "America/Los_Angeles",
-   "online": false,
-   "city": "San Francisco",
-   "venueHidden": false,
-   "address": "Radhaus",
-   "lat": 37.8064484,
-   "lon": -122.4321771,
-   "guests": 7,
-   "calendar": null,
-   "calendarVerified": false,
-   "hosts": [
-    {
-     "name": "Keelin Mcdonell",
-     "verified": false,
-     "bio": null
-    }
-   ],
-   "free": true,
-   "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
-   "nearCapacity": false,
-   "spotsRemaining": 218,
-   "cover": "https://images.lumacdn.com/uploads/mr/4d5fdf73-0af6-4ae8-9eb1-2a838721d3ab.png",
-   "feeds": [
-    "cat-ai"
-   ]
-  },
-  {
    "id": "evt-vHGzJ7vbVRF6ADG",
    "title": "Humanmade Hardware Accelerator Demo Day",
    "url": "https://lu.ma/yoytbej3",
@@ -14365,7 +14626,7 @@
    "address": "655 Bryant St",
    "lat": 37.7780597,
    "lon": -122.3994279,
-   "guests": 131,
+   "guests": 139,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -14380,7 +14641,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 369,
+   "spotsRemaining": 361,
    "cover": "https://images.lumacdn.com/uploads/7l/bc90a421-9f53-4df5-a9d4-36d7960f0d64.jpg",
    "feeds": [
     "cat-tech"
@@ -14399,7 +14660,7 @@
    "address": "Cisco Building 17",
    "lat": 37.4083878,
    "lon": -121.92736,
-   "guests": 78,
+   "guests": 83,
    "calendar": "Women in Cybersecurity - Silicon Valley",
    "calendarVerified": false,
    "hosts": [
@@ -14414,7 +14675,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 222,
+   "spotsRemaining": 217,
    "cover": "https://images.lumacdn.com/uploads/zq/97a1cca9-d9f0-4707-baef-1ae988559737.jpg",
    "feeds": [
     "cat-ai"
@@ -14433,7 +14694,7 @@
    "address": "The CORE - University Libraries",
    "lat": 37.6551435,
    "lon": -122.0548007,
-   "guests": 15,
+   "guests": 17,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -14570,7 +14831,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 101,
+   "spotsRemaining": 97,
    "cover": "https://images.unsplash.com/photo-1576086265779-619d2f54d96b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwzOHx8YmlvbG9neXxlbnwwfHx8fDE3OTMwMzQ0Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
    "feeds": [
     "cat-ai"
@@ -14589,7 +14850,7 @@
    "address": null,
    "lat": 37.79198010367773,
    "lon": -122.39709468596357,
-   "guests": 28,
+   "guests": 29,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -14604,8 +14865,47 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 22,
+   "spotsRemaining": 21,
    "cover": "https://images.lumacdn.com/uploads/2p/88fe9e42-1a58-42d9-9326-51e8e31c22ee.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-WtCHIHRq59x3xKa",
+   "title": "Hardware Happy Hour at AuSIM Garage!",
+   "url": "https://lu.ma/dek59guq",
+   "start": "2026-11-13T01:30:00.000Z",
+   "end": "2026-11-13T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Mountain View",
+   "venueHidden": false,
+   "address": "AuSIM Incorporated",
+   "lat": 37.4138363,
+   "lon": -122.0731572,
+   "guests": 4,
+   "calendar": "informal spaces - OAK MV SF",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Kyle Valiton",
+     "verified": false,
+     "bio": "Do your best work in our spaces and with our talent network."
+    },
+    {
+     "name": "Will Chapin",
+     "verified": false,
+     "bio": "35+ of Silicon Valley entrepreneurship, sensors for closed-loop control, VR 1.0, robotics"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 106,
+   "cover": "https://images.lumacdn.com/uploads/df/ec5bb570-b23d-4411-8139-1ed5df18eb40.png",
    "feeds": [
     "cat-tech"
    ]
@@ -14726,7 +15026,7 @@
    "address": "385 Moffett Park Dr suite 105",
    "lat": 37.4063898,
    "lon": -122.0160123,
-   "guests": 5,
+   "guests": 10,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -14741,7 +15041,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 25,
+   "spotsRemaining": 20,
    "cover": "https://images.lumacdn.com/gallery-images/ru/6ed80c40-d1f6-4022-8f67-b8380b15066a.png",
    "feeds": [
     "cat-ai"
@@ -14760,7 +15060,7 @@
    "address": null,
    "lat": 37.42696097134735,
    "lon": -122.14591084109648,
-   "guests": 76,
+   "guests": 80,
    "calendar": "Startup Island TAIWAN - Silicon Valley Hub",
    "calendarVerified": false,
    "hosts": [
@@ -14784,8 +15084,8 @@
    "requireApproval": true,
    "soldOut": false,
    "waitlist": false,
-   "nearCapacity": true,
-   "spotsRemaining": 4,
+   "nearCapacity": false,
+   "spotsRemaining": 20,
    "cover": "https://images.lumacdn.com/uploads/4z/defe1d11-885b-46c8-b820-d741b1d97a3b.jpg",
    "feeds": [
     "cat-ai"
@@ -14804,7 +15104,7 @@
    "address": "135 Constitution Dr",
    "lat": 37.4850527,
    "lon": -122.1762167,
-   "guests": 121,
+   "guests": 131,
    "calendar": "WOMEN x AI",
    "calendarVerified": false,
    "hosts": [
@@ -14863,7 +15163,7 @@
    "address": null,
    "lat": 37.79170857801006,
    "lon": -122.39428880448526,
-   "guests": 44,
+   "guests": 75,
    "calendar": "Anyscale",
    "calendarVerified": false,
    "hosts": [
@@ -14890,13 +15190,14 @@
    ],
    "free": true,
    "requireApproval": false,
-   "soldOut": false,
-   "waitlist": false,
+   "soldOut": true,
+   "waitlist": true,
    "nearCapacity": false,
-   "spotsRemaining": 31,
+   "spotsRemaining": 0,
    "cover": "https://images.lumacdn.com/uploads/oa/c671fda2-c78e-4de3-bf1f-6ab0f5545854.png",
    "feeds": [
-    "cat-ai"
+    "cat-ai",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   },
   {
@@ -14912,7 +15213,7 @@
    "address": "AWS Builder Loft",
    "lat": 37.7904122,
    "lon": -122.39934480000001,
-   "guests": 22,
+   "guests": 24,
    "calendar": "AWS San Francisco User Group",
    "calendarVerified": false,
    "hosts": [
@@ -15024,7 +15325,7 @@
    "address": "Circuit Launch",
    "lat": 37.740580699999995,
    "lon": -122.20128690000001,
-   "guests": 119,
+   "guests": 120,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -15232,6 +15533,60 @@
    ]
   },
   {
+   "id": "evt-0mhBhoE0oeLmQO8",
+   "title": "Developing for iPhone Duo and Rethinking the Testing Pyramid in the Age of AI",
+   "url": "https://lu.ma/t18thivq",
+   "start": "2026-11-13T02:00:00.000Z",
+   "end": "2026-11-13T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": false,
+   "address": "Lyft HQ",
+   "lat": 37.7765663,
+   "lon": -122.3920774,
+   "guests": 91,
+   "calendar": "SF Swift Language User Group (SLUG) x CocoaHeads",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "sfswift",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Austin Conlon",
+     "verified": false,
+     "bio": "SwingVision"
+    },
+    {
+     "name": "Dhrushit",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "J'aime Ohm",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Xavier Huang",
+     "verified": false,
+     "bio": "Founder of LingCode.dev"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/83/992766f6-7db5-4572-8dc8-727d3eb983f1.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
    "id": "evt-dZZp8nlZAK5LMyM",
    "title": "Agent Building & Founder Networking Salon",
    "url": "https://lu.ma/l67727uo",
@@ -15281,46 +15636,26 @@
    ]
   },
   {
-   "id": "evt-0mhBhoE0oeLmQO8",
-   "title": "Developing for iPhone Duo and Rethinking the Testing Pyramid in the Age of AI",
-   "url": "https://lu.ma/t18thivq",
+   "id": "evt-uCtGa5dpFbbQFjb",
+   "title": "Google Happy Hour @ SGLang Summit",
+   "url": "https://lu.ma/sjndgq98",
    "start": "2026-11-13T02:00:00.000Z",
    "end": "2026-11-13T04:00:00.000Z",
    "timezone": "America/Los_Angeles",
    "online": false,
    "city": "San Francisco",
    "venueHidden": false,
-   "address": "Lyft HQ",
-   "lat": 37.7765663,
-   "lon": -122.3920774,
-   "guests": 90,
-   "calendar": "SF Swift Language User Group (SLUG) x CocoaHeads",
+   "address": "Radhaus",
+   "lat": 37.8064484,
+   "lon": -122.4321771,
+   "guests": 10,
+   "calendar": null,
    "calendarVerified": false,
    "hosts": [
     {
-     "name": "sfswift",
+     "name": "Keelin Mcdonell",
      "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Austin Conlon",
-     "verified": false,
-     "bio": "SwingVision"
-    },
-    {
-     "name": "Dhrushit",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "J'aime Ohm",
-     "verified": false,
-     "bio": ""
-    },
-    {
-     "name": "Xavier Huang",
-     "verified": false,
-     "bio": "Founder of LingCode.dev"
+     "bio": null
     }
    ],
    "free": true,
@@ -15328,8 +15663,8 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": null,
-   "cover": "https://images.lumacdn.com/uploads/83/992766f6-7db5-4572-8dc8-727d3eb983f1.png",
+   "spotsRemaining": 215,
+   "cover": "https://images.lumacdn.com/uploads/mr/4d5fdf73-0af6-4ae8-9eb1-2a838721d3ab.png",
    "feeds": [
     "cat-ai"
    ]
@@ -15367,7 +15702,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": true,
-   "spotsRemaining": 2,
+   "spotsRemaining": 1,
    "cover": "https://images.lumacdn.com/uploads/96/f795f588-982e-4daf-bdce-ea6eb090ef3d.png",
    "feeds": [
     "cat-ai"
@@ -15386,7 +15721,7 @@
    "address": "Intuit Building 6",
    "lat": 37.4298078,
    "lon": -122.09634629999998,
-   "guests": 4,
+   "guests": 5,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -15411,7 +15746,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 26,
+   "spotsRemaining": 25,
    "cover": "https://images.lumacdn.com/uploads/wg/193080b1-3d6a-40bb-a470-cdbeaccc70e4.jpg",
    "feeds": [
     "cat-ai"
@@ -15612,7 +15947,7 @@
    "address": null,
    "lat": 37.79361698201312,
    "lon": -122.39773010859528,
-   "guests": 80,
+   "guests": 81,
    "calendar": "SF AI Health Studio",
    "calendarVerified": false,
    "hosts": [
@@ -15637,7 +15972,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 70,
+   "spotsRemaining": 69,
    "cover": "https://images.lumacdn.com/uploads/6w/2c46880b-533d-4cbb-a6e0-99fa86db464f.jpg",
    "feeds": [
     "cat-ai"
@@ -15656,7 +15991,7 @@
    "address": null,
    "lat": 37.78399080419766,
    "lon": -122.39024467190873,
-   "guests": 36,
+   "guests": 37,
    "calendar": "SF Hardware Meetup",
    "calendarVerified": false,
    "hosts": [
@@ -15681,7 +16016,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 59,
+   "spotsRemaining": 58,
    "cover": "https://images.lumacdn.com/uploads/on/4809fd94-97c2-40b4-9dac-0b47749779c7.png",
    "feeds": [
     "cat-ai"
@@ -15744,7 +16079,7 @@
    "address": null,
    "lat": 37.770171920846614,
    "lon": -122.40817860548697,
-   "guests": 251,
+   "guests": 254,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -15778,7 +16113,7 @@
    "address": null,
    "lat": 37.483377168396935,
    "lon": -122.17722740953909,
-   "guests": 89,
+   "guests": 94,
    "calendar": "Beta University Events",
    "calendarVerified": false,
    "hosts": [
@@ -16033,7 +16368,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 56,
+   "spotsRemaining": 51,
    "cover": "https://images.lumacdn.com/uploads/ek/d1646502-5848-4bef-851a-e8b4da1a2dca.gif",
    "feeds": [
     "cat-ai"
@@ -16198,7 +16533,7 @@
    "address": null,
    "lat": 37.378319624667185,
    "lon": -122.11044276741464,
-   "guests": 41,
+   "guests": 42,
    "calendar": "BayJoyce",
    "calendarVerified": false,
    "hosts": [
@@ -16233,7 +16568,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 29,
+   "spotsRemaining": 28,
    "cover": "https://images.lumacdn.com/uploads/5b/6684b912-acb3-4973-981a-b4fcfb660ab0.png",
    "feeds": [
     "cat-ai"
@@ -16306,7 +16641,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 69,
+   "spotsRemaining": 59,
    "cover": "https://images.lumacdn.com/uploads/om/28e47a0d-503a-4409-ae51-805d59479967.png",
    "feeds": [
     "discplace-BDj7GNbGlsF7Cka"
@@ -16325,7 +16660,7 @@
    "address": "Hogpatch",
    "lat": 37.7597267,
    "lon": -122.3888066,
-   "guests": 41,
+   "guests": 43,
    "calendar": null,
    "calendarVerified": false,
    "hosts": [
@@ -16350,7 +16685,7 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 59,
+   "spotsRemaining": 57,
    "cover": "https://images.lumacdn.com/uploads/oz/602bc17f-8183-4d65-96c2-3976d324a756.png",
    "feeds": [
     "cat-tech"
@@ -16369,7 +16704,7 @@
    "address": "SOHN",
    "lat": 37.757324,
    "lon": -122.3879397,
-   "guests": 368,
+   "guests": 373,
    "calendar": "Greptile",
    "calendarVerified": false,
    "hosts": [
@@ -16572,7 +16907,7 @@
    "address": null,
    "lat": 37.78088588907551,
    "lon": -122.40899590795978,
-   "guests": 13,
+   "guests": 18,
    "calendar": "Nace AI",
    "calendarVerified": false,
    "hosts": [
@@ -16592,10 +16927,442 @@
    "soldOut": false,
    "waitlist": false,
    "nearCapacity": false,
-   "spotsRemaining": 237,
+   "spotsRemaining": 232,
    "cover": "https://images.lumacdn.com/uploads/yc/3d828a0f-9e8c-4c0f-822b-e21bfac44e32.png",
    "feeds": [
     "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-wBZ2hR5gZSlsm0m",
+   "title": "LPC Hacks",
+   "url": "https://lu.ma/zxpdxy3k",
+   "start": "2026-11-14T18:00:00.000Z",
+   "end": "2026-11-15T02:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Livermore",
+   "venueHidden": false,
+   "address": "Las Positas College",
+   "lat": 37.710488,
+   "lon": -121.8001828,
+   "guests": 54,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "LPChacks",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/7s/3f9cd54a-ac73-4ac1-ad73-0df5e5d79eb7.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-hFfO3nFvva1pCBC",
+   "title": "SearchHack: Build the next layer of AI search",
+   "url": "https://lu.ma/e13wf1bd",
+   "start": "2026-11-14T18:00:00.000Z",
+   "end": "2026-11-15T04:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Sunnyvale",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.38966435669871,
+   "lon": -122.03643137496734,
+   "guests": 0,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Taliyah Huang",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Tavily Events",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Mohan Zhang",
+     "verified": false,
+     "bio": "Founder & CEO"
+    },
+    {
+     "name": "Pop Pop Tech",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Kyle Qi",
+     "verified": false,
+     "bio": "Principal @ Llama Ventures ($300M Early Stage Fund)"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/ge/320e1f6b-44ec-4976-9941-3913f22f26bf.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-WmcFSQ1lBmjJiST",
+   "title": "She Builds: A Women in AI × Lovable Hackathon",
+   "url": "https://lu.ma/lw202zjx",
+   "start": "2026-11-14T18:00:00.000Z",
+   "end": "2026-11-15T03:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.786341571473166,
+   "lon": -122.3932589631275,
+   "guests": 151,
+   "calendar": "Women in AI",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Women in AI Club",
+     "verified": false,
+     "bio": "Where women build and scale AI together."
+    },
+    {
+     "name": "Claire Xie",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Sean Chiu",
+     "verified": false,
+     "bio": "Head of Community @ BuilderBase | hosting hackathons worldwide\nAI Engineer | CS @UCI"
+    },
+    {
+     "name": "BuilderBase",
+     "verified": false,
+     "bio": "The adoption layer of AI"
+    },
+    {
+     "name": "Founders Bay",
+     "verified": false,
+     "bio": "Community of 200,000+ AI Founders & Builders connecting through events, workshops, and a weekly newsletter.\nJoin now: foundersbay.com/member"
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 199,
+   "cover": "https://images.lumacdn.com/gallery-images/fv/9ca2825f-781f-48c2-bc21-7dd90ac2d3ef",
+   "feeds": [
+    "cat-ai",
+    "discplace-BDj7GNbGlsF7Cka"
+   ]
+  },
+  {
+   "id": "evt-cJ8EDa8yYdcXQ85",
+   "title": "Wrench in the Machine: Youth Tech Organizing",
+   "url": "https://lu.ma/j1k02tmd",
+   "start": "2026-11-14T19:00:00.000Z",
+   "end": "2026-11-14T21:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Oakland",
+   "venueHidden": false,
+   "address": "Kinfolx",
+   "lat": 37.8095159,
+   "lon": -122.26981620000001,
+   "guests": 16,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Kate Sim",
+     "verified": false,
+     "bio": "Children's Online Safety and Privacy Research (COSPR)\n\nhttps://linktr.ee/cospr"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/si/8fde2eee-a356-475e-8bdf-81d711d3d605.jpg",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-7NpDOQsFCotFwKZ",
+   "title": "VEILUNE Private Launch",
+   "url": "https://lu.ma/prgbyjra",
+   "start": "2026-11-14T20:00:00.000Z",
+   "end": "2026-11-15T00:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Mateo",
+   "venueHidden": false,
+   "address": "Bahche",
+   "lat": 37.5407517,
+   "lon": -122.29772949999999,
+   "guests": 27,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Nicole Rombach, CEO, Veil Guard Technologies, Inc.",
+     "verified": false,
+     "bio": ""
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 93,
+   "cover": "https://images.lumacdn.com/uploads/8v/a2f1c012-618e-4aef-afa9-a5b6ccbbc05f.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-0UF93R51Yz3GW22",
+   "title": "1:1 with execs from OpenAI, NVIDIA, NEA, Cisco | Unstuck your startup | Early stage founders",
+   "url": "https://lu.ma/1raijfsw",
+   "start": "2026-11-14T20:30:00.000Z",
+   "end": "2026-11-15T01:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Berkeley",
+   "venueHidden": false,
+   "address": "Brower Center",
+   "lat": 37.8694389,
+   "lon": -122.2664611,
+   "guests": 0,
+   "calendar": "DECODE",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Shuo Chen",
+     "verified": false,
+     "bio": "General Partner, IOVC | Lecturer, Stanford"
+    },
+    {
+     "name": "Danica Tang",
+     "verified": false,
+     "bio": "UC Berkeley CS'25"
+    },
+    {
+     "name": "Jerel Lim",
+     "verified": false,
+     "bio": "CEO at DECODE | Board Member | Limited Partner | Community Builder | Ex-Deloitte Consultant | UC Berkeley"
+    }
+   ],
+   "free": false,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 192,
+   "cover": "https://images.lumacdn.com/uploads/r8/25267f02-2f46-49f0-adca-e5159ddad4d2.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-nFPzJmP0qJSRv8p",
+   "title": "2026 U.S. Taiwan High-Tech Forum: From Silicon to Sovereignty - AI Empowerment in the Age of Agents",
+   "url": "https://lu.ma/i2rg3kqy",
+   "start": "2026-11-14T20:30:00.000Z",
+   "end": "2026-11-15T01:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Mountain View",
+   "venueHidden": false,
+   "address": "Computer History Museum",
+   "lat": 37.4142744,
+   "lon": -122.077409,
+   "guests": 93,
+   "calendar": "NATEA Silicon Valley",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "NATEA Silicon Valley",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Mu-Ti Huang",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Joy Liu",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Bill Chung",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Nicole Chang",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Ning Lu",
+     "verified": false,
+     "bio": null
+    },
+    {
+     "name": "Jenny Lin",
+     "verified": false,
+     "bio": ""
+    },
+    {
+     "name": "Nick Chao",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": false,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 277,
+   "cover": "https://images.lumacdn.com/uploads/xi/e33777cf-e44a-4e9d-afcc-59110ba3f8f8.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-Gb8EibiB9XqPm4B",
+   "title": "AI Engineer Kids Day",
+   "url": "https://lu.ma/kdtg113c",
+   "start": "2026-11-14T20:30:00.000Z",
+   "end": "2026-11-14T23:30:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Francisco",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.78167206040669,
+   "lon": -122.4065378021462,
+   "guests": 0,
+   "calendar": "Neo4j",
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Neo4j",
+     "verified": false,
+     "bio": "Neo4j is the knowledge layer for enterprise AI, making AI accurate, explainable, and governable."
+    },
+    {
+     "name": "Cassandra Chin",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 53,
+   "cover": "https://images.lumacdn.com/uploads/2m/7721251a-e7bd-4425-9146-f7071a632a0e.png",
+   "feeds": [
+    "cat-ai"
+   ]
+  },
+  {
+   "id": "evt-6PL17EyQ7W0myKh",
+   "title": "Stanford Neurotech Think Tank",
+   "url": "https://lu.ma/yvhwb0jq",
+   "start": "2026-11-14T22:00:00.000Z",
+   "end": "2026-11-15T00:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "Stanford",
+   "venueHidden": true,
+   "address": null,
+   "lat": 37.42591318989382,
+   "lon": -122.1759748406278,
+   "guests": 14,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Marion Moranetz",
+     "verified": false,
+     "bio": "Entrepreneur | Aerospace, Defence Technology & Government Innovation"
+    }
+   ],
+   "free": true,
+   "requireApproval": false,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": 16,
+   "cover": "https://images.lumacdn.com/uploads/ob/19cfb1b9-4543-4176-a696-2cb65dfcd522.png",
+   "feeds": [
+    "cat-tech"
+   ]
+  },
+  {
+   "id": "evt-mHDawkKrjxjwiPw",
+   "title": "🔥 Hard Tech Bonfire Night @ OG Tesla HQ",
+   "url": "https://lu.ma/ak5cch9g",
+   "start": "2026-11-15T02:00:00.000Z",
+   "end": "2026-11-15T06:00:00.000Z",
+   "timezone": "America/Los_Angeles",
+   "online": false,
+   "city": "San Carlos",
+   "venueHidden": false,
+   "address": "1056 Commercial St",
+   "lat": 37.5044693,
+   "lon": -122.25426649999999,
+   "guests": 123,
+   "calendar": null,
+   "calendarVerified": false,
+   "hosts": [
+    {
+     "name": "Joshua Kaplowitz",
+     "verified": false,
+     "bio": null
+    }
+   ],
+   "free": true,
+   "requireApproval": true,
+   "soldOut": false,
+   "waitlist": false,
+   "nearCapacity": false,
+   "spotsRemaining": null,
+   "cover": "https://images.lumacdn.com/uploads/fo/c6ec86e3-0512-44bf-ac43-c249966e3e89.png",
+   "feeds": [
+    "cat-tech",
+    "discplace-BDj7GNbGlsF7Cka"
    ]
   }
  ]
